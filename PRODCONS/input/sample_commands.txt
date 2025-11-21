@@ -1,0 +1,24 @@
+# Commands to run input directly in the command line/terminal for ease
+# after running javac *.java to compile
+
+# with buffer = 3
+java ProducerConsumer 2 2 3
+java ProducerConsumer 2 5 3
+java ProducerConsumer 2 10 3
+java ProducerConsumer 5 2 3
+java ProducerConsumer 5 5 3
+java ProducerConsumer 5 10 3
+java ProducerConsumer 10 2 3
+java ProducerConsumer 10 5 3
+java ProducerConsumer 10 10 3
+
+# with buffer = 10 
+java ProducerConsumer 2 2 10
+java ProducerConsumer 2 5 10
+java ProducerConsumer 2 10 10
+java ProducerConsumer 5 2 10
+java ProducerConsumer 5 5 10
+java ProducerConsumer 5 10 10
+java ProducerConsumer 10 2 10
+java ProducerConsumer 10 5 10
+java ProducerConsumer 10 10 10
