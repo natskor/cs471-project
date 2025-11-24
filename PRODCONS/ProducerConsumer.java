@@ -241,7 +241,7 @@ public class ProducerConsumer {
         Thread[] producers = new Thread[p];
         Thread[] consumers = new Thread[c];
 
-        long start = System.nanoTime(); // track time in ms
+        long start = System.nanoTime(); // track time
 
         // start producers
         for (int i = 0; i < p; i++) {
@@ -268,10 +268,10 @@ public class ProducerConsumer {
         // wait for consumers to finish
         for (Thread t : consumers) t.join();
 
-        long end = System.nanoTime(); // track time in ms
+        long end = System.nanoTime(); // track time
 
         // print global statistics and time
         globalStats.printGlobal();
-        System.out.printf("Total simulation time: %.2f ms%n", (end - start) / 1_000_000.0);
+        System.out.printf("Total simulation time: %.2f ms%n", (end - start) / 1_000_000.0); // convert to milliseconds
     }
 }
