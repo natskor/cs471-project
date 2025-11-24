@@ -80,26 +80,31 @@ The <2> <2> <3> values are the default values in the program, and can be changed
 
 `java ProducerConsumer 10 10 10`
 
-The program was run a total of 18 times to ensure each combination of `p`,`c`, and `b` was used.
-Here is a complete results table for all 18 runs:
-| Run        | p | c | b  | Time (ms) | Findings                          |
-| ---------- | - | - | -- | --------- | --------------------------------- |
-| 1          | 2 | 2 | 3  | ~ ms    |                                   |
-| 2          | 2 | 5 | 3 | ~ ms    |                                   |
-| 3          | 2 | 10 | 3  | ~ ms |                                   |
-| 4          | 5 | 2 | 10  | ~ ms |                                   |
-| 5          | 2 | 2 | 3  | ~ ms    |            |
-| 6          | 2 | 2 | 10 | ~ ms    |  |
-| 7          | 5 | 2 | 5  | ~ ms |           |
-| 8          | 2 | 5 | 5  | ~ ms |          |
-| 9          | 2 | 2 | 3  | ~ ms    |           |
-| 10         | 2 | 2 | 10 | ~ ms    |  |
-| 11         | 5 | 2 | 5  | ~ ms |            |
-| 12         | 2 | 5 | 5  | ~ ms |           |
-| 13         | 2 | 2 | 3  | ~ ms    |              |
-| 14         | 2 | 2 | 10 | ~ ms    |  |
-| 15         | 5 | 2 | 5  | ~ ms |           |
-| 16         | 2 | 5 | 5  | ~ ms |         |
-| 17         | 5 | 2 | 5  | ~ ms |           |
-| 18         | 2 | 5 | 5  | ~ ms |           |
+# Results
 
+The program was run a total of 18 times to ensure each combination of `p`,`c`, and `b` was used.
+
+Here is a complete results table for all 18 runs:
+| Run        | p  | c  | b  | Time (ms) | Findings                          |
+| ---------- | -- | -- | -- | --------- | --------------------------------- |
+| 1          | 2  | 2  | 3  | ~ ms      |                                   |
+| 2          | 2  | 5  | 3  | ~ ms      |                                   |
+| 3          | 2  | 10 | 3  | ~ ms      |                                   |
+| 4          | 5  | 2  | 3  | ~ ms      |                                   |
+| 5          | 5  | 5  | 3  | ~ ms      |            |
+| 6          | 5  | 10 | 3  | ~ ms      |  |
+| 7          | 10 | 2  | 3  | ~ ms      |           |
+| 8          | 10 | 5  | 3  | ~ ms      |          |
+| 9          | 10 | 10 | 3  | ~ ms      |           |
+| 10         | 2  | 2  | 10 | ~ ms      |  |
+| 11         | 2  | 5  | 10 | ~ ms      |            |
+| 12         | 2  | 10 | 10 | ~ ms      |           |
+| 13         | 5  | 2  | 10 | ~ ms      |              |
+| 14         | 5  | 5  | 10 | ~ ms      |  |
+| 15         | 5  | 10 | 10 | ~ ms      |           |
+| 16         | 10 | 2  | 10 | ~ ms      |         |
+| 17         | 10 | 5  | 10 | ~ ms      |           |
+| 18         | 10 | 10 | 10 | ~ ms      |           |
+
+
+# Conclusion/Findings

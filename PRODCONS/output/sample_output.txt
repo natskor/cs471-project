@@ -1,1 +1,3 @@
-Sample output here:
+# Sample output from all 18 runs:
+# Results may vary due to randomization of sales records and variable sleep times.
+
