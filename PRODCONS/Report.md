@@ -90,21 +90,21 @@ Here is a complete results table for all 18 runs:
 | 1          | 2  | 2  | 3  | 11262.57 ms | Aggregate sales: 511365.87        |
 | 2          | 2  | 5  | 3  | 11693.02 ms | Aggregate sales: 512983.71        |
 | 3          | 2  | 10 | 3  | 11498.20 ms | Aggregate sales: 510887.27        |
-| 4          | 5  | 2  | 3  | 4693.90 ms  |                                   |
-| 5          | 5  | 5  | 3  | ~ ms      |            |
-| 6          | 5  | 10 | 3  | ~ ms      |  |
-| 7          | 10 | 2  | 3  | ~ ms      |           |
-| 8          | 10 | 5  | 3  | ~ ms      |          |
-| 9          | 10 | 10 | 3  | ~ ms      |           |
-| 10         | 2  | 2  | 10 | ~ ms      |  |
-| 11         | 2  | 5  | 10 | ~ ms      |            |
-| 12         | 2  | 10 | 10 | ~ ms      |           |
-| 13         | 5  | 2  | 10 | ~ ms      |              |
-| 14         | 5  | 5  | 10 | ~ ms      |  |
-| 15         | 5  | 10 | 10 | ~ ms      |           |
-| 16         | 10 | 2  | 10 | ~ ms      |         |
-| 17         | 10 | 5  | 10 | ~ ms      |           |
-| 18         | 10 | 10 | 10 | ~ ms      |           |
+| 4          | 5  | 2  | 3  | 4693.90 ms  | Aggregate sales: 487894.86        |
+| 5          | 5  | 5  | 3  | 4604.35 ms  | Aggregate sales: 500418.01        |
+| 6          | 5  | 10 | 3  | 4702.03 ms  | Aggregate sales: 507924.56        |
+| 7          | 10 | 2  | 3  | 2338.00 ms  | Aggregate sales: 506769.47        |
+| 8          | 10 | 5  | 3  | 2495.83 ms  | Aggregate sales: 508865.61        |
+| 9          | 10 | 10 | 3  | 2513.88 ms  | Aggregate sales: 497762.96        |
+| 10         | 2  | 2  | 10 | 11401.47 ms | Aggregate sales: 500397.38        |
+| 11         | 2  | 5  | 10 | 11388.75 ms | Aggregate sales: 489768.34        |
+| 12         | 2  | 10 | 10 | 11702.83 ms | Aggregate sales: 504882.36        |
+| 13         | 5  | 2  | 10 | 4694.28 ms  | Aggregate sales: 516000.98        |
+| 14         | 5  | 5  | 10 | 4880.98 ms  | Aggregate sales: 497587.03        |
+| 15         | 5  | 10 | 10 | 5087.36 ms  | Aggregate sales: 503357.16        |
+| 16         | 10 | 2  | 10 | 2323.54 ms  | Aggregate sales: 507552.29        |
+| 17         | 10 | 5  | 10 | 2490.62 ms  | Aggregate sales: 504603.78        |
+| 18         | 10 | 10 | 10 | 2592.92 ms  | Aggregate sales: 489300.30        |
 
 
 # Conclusion/Findings
