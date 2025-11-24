@@ -82,7 +82,7 @@ The `<2> <2> <3>` values are the default values in the program, and can be chang
 
 # Results
 
-The program was run a total of 18 times to ensure each combination of `p`,`c`, and `b` was used.
+The program was run a total of 18 times (see sample_output.txt) to ensure each combination of `p`,`c`, and `b` was used.
 
 Here is a results table for all 18 runs:
 | Run #      | p  | c  | b  | Time (ms)   | Global Aggregate Sales            |
