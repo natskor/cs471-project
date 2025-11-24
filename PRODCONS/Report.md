@@ -72,7 +72,7 @@ To run the program:
 
 `java ProducerConsumer 2 2 3` 
 
-The <2> <2> <3> values are the default values in the program, and can be changed by entering commands such as these in the command line:
+The `<2> <2> <3>` values are the default values in the program, and can be changed by entering commands (see sample_commands.txt) such as these in the command line:
 
 `java ProducerConsumer 5 5 10`
 
@@ -85,7 +85,7 @@ The <2> <2> <3> values are the default values in the program, and can be changed
 The program was run a total of 18 times to ensure each combination of `p`,`c`, and `b` was used.
 
 Here is a complete results table for all 18 runs:
-| Run        | p  | c  | b  | Time (ms)   | Global Aggregate Sales            |
+| Run #      | p  | c  | b  | Time (ms)   | Global Aggregate Sales            |
 | ---------- | -- | -- | -- | ----------- | --------------------------------- |
 | 1          | 2  | 2  | 3  | 11262.57 ms | Aggregate sales: 511365.87        |
 | 2          | 2  | 5  | 3  | 11693.02 ms | Aggregate sales: 512983.71        |
