@@ -1,4 +1,3 @@
-package src;
 import java.util.Random;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -57,14 +56,14 @@ public class ProducerConsumer {
 
         // print global stats
         void printGlobal() {
-            System.out.println("\n=== GLOBAL STATISTICS ===");
+            System.out.println("GLOBAL STATISTICS:");
             for (int i = 0; i < storeTotals.length; i++) {
-                System.out.printf("Store %d total: %.2f%n", i + 1, storeTotals[i]);
+                System.out.printf("  Store %d total: %.2f%n", i + 1, storeTotals[i]);
             }
             for (int i = 0; i < 12; i++) {
-                System.out.printf("Month %d total: %.2f%n", i + 1, monthTotals[i]);
+                System.out.printf("  Month %d total: %.2f%n", i + 1, monthTotals[i]);
             }
-            System.out.printf("Aggregate sales: %.2f%n", aggregate);
+            System.out.printf("  Aggregate sales: %.2f%n", aggregate);
         }
     }
 

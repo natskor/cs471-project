@@ -1,3 +1,2572 @@
 # Sample output from all 18 runs:
 # Results may vary due to randomization of sales records and variable sleep times.
 
+1. 
+java ProducerConsumer 2 2 3
+Running with p=2 producers, c=2 consumers, buffer size b=3, maxItems=1000
+
+Consumer 2 local statistics:
+  Store 1 total: 141151.01
+  Store 2 total: 111171.15
+  Month 1 total: 22343.78
+  Month 2 total: 14615.02
+  Month 3 total: 16601.57
+  Month 4 total: 28164.18
+  Month 5 total: 24496.43
+  Month 6 total: 21444.18
+  Month 7 total: 15567.09
+  Month 8 total: 24182.99
+  Month 9 total: 16618.86
+  Month 10 total: 19235.30
+  Month 11 total: 25802.97
+  Month 12 total: 23249.81
+  Aggregate: 252322.15
+
+Consumer 1 local statistics:
+  Store 1 total: 120612.38
+  Store 2 total: 138431.34
+  Month 1 total: 21935.60
+  Month 2 total: 24595.14
+  Month 3 total: 21399.11
+  Month 4 total: 17437.94
+  Month 5 total: 19040.98
+  Month 6 total: 22272.26
+  Month 7 total: 20354.07
+  Month 8 total: 22059.44
+  Month 9 total: 21700.42
+  Month 10 total: 16769.21
+  Month 11 total: 29611.72
+  Month 12 total: 21867.83
+  Aggregate: 259043.72
+
+GLOBAL STATISTICS:
+  Store 1 total: 261763.38
+  Store 2 total: 249602.49
+  Month 1 total: 44279.37
+  Month 2 total: 39210.16
+  Month 3 total: 38000.68
+  Month 4 total: 45602.12
+  Month 5 total: 43537.41
+  Month 6 total: 43716.44
+  Month 7 total: 35921.16
+  Month 8 total: 46242.43
+  Month 9 total: 38319.28
+  Month 10 total: 36004.51
+  Month 11 total: 55414.68
+  Month 12 total: 45117.64
+  Aggregate sales: 511365.87
+Total simulation time: 11262.57 ms
+
+2.
+java ProducerConsumer 2 5 3
+Running with p=2 producers, c=5 consumers, buffer size b=3, maxItems=1000
+
+Consumer 5 local statistics:
+  Store 1 total: 47464.56
+  Store 2 total: 48864.66
+  Month 1 total: 7306.83
+  Month 2 total: 9865.99
+  Month 3 total: 7930.17
+  Month 4 total: 8239.93
+  Month 5 total: 10246.82
+  Month 6 total: 5180.59
+  Month 7 total: 4492.95
+  Month 8 total: 9669.56
+  Month 9 total: 9136.57
+  Month 10 total: 8667.60
+  Month 11 total: 7161.79
+  Month 12 total: 8430.40
+  Aggregate: 96329.21
+
+Consumer 4 local statistics:
+  Store 1 total: 59251.43
+  Store 2 total: 43948.62
+  Month 1 total: 8593.03
+  Month 2 total: 7966.04
+  Month 3 total: 9815.20
+  Month 4 total: 5696.10
+  Month 5 total: 8448.76
+  Month 6 total: 5378.99
+  Month 7 total: 11010.64
+  Month 8 total: 7388.11
+  Month 9 total: 13146.43
+  Month 10 total: 7167.41
+  Month 11 total: 7931.68
+  Month 12 total: 10657.68
+  Aggregate: 103200.05
+
+Consumer 3 local statistics:
+  Store 1 total: 46257.09
+  Store 2 total: 61867.55
+  Month 1 total: 9461.33
+  Month 2 total: 10362.68
+  Month 3 total: 12978.45
+  Month 4 total: 4943.96
+  Month 5 total: 7396.88
+  Month 6 total: 5211.96
+  Month 7 total: 8711.31
+  Month 8 total: 9402.36
+  Month 9 total: 9370.63
+  Month 10 total: 12656.45
+  Month 11 total: 9452.44
+  Month 12 total: 8176.19
+  Aggregate: 108124.65
+
+Consumer 2 local statistics:
+  Store 1 total: 47630.58
+  Store 2 total: 55513.79
+  Month 1 total: 7524.84
+  Month 2 total: 5008.75
+  Month 3 total: 8415.80
+  Month 4 total: 9391.30
+  Month 5 total: 8581.51
+  Month 6 total: 10130.47
+  Month 7 total: 7180.76
+  Month 8 total: 10586.88
+  Month 9 total: 10418.75
+  Month 10 total: 12912.13
+  Month 11 total: 5709.43
+  Month 12 total: 7283.76
+  Aggregate: 103144.37
+
+Consumer 1 local statistics:
+  Store 1 total: 49573.80
+  Store 2 total: 52611.63
+  Month 1 total: 7605.60
+  Month 2 total: 13661.46
+  Month 3 total: 6961.93
+  Month 4 total: 6736.30
+  Month 5 total: 11113.26
+  Month 6 total: 7441.14
+  Month 7 total: 6938.97
+  Month 8 total: 8595.97
+  Month 9 total: 4423.59
+  Month 10 total: 8304.66
+  Month 11 total: 11515.35
+  Month 12 total: 8887.21
+  Aggregate: 102185.43
+
+GLOBAL STATISTICS:
+  Store 1 total: 250177.46
+  Store 2 total: 262806.26
+  Month 1 total: 40491.63
+  Month 2 total: 46864.91
+  Month 3 total: 46101.55
+  Month 4 total: 35007.58
+  Month 5 total: 45787.24
+  Month 6 total: 33343.14
+  Month 7 total: 38334.62
+  Month 8 total: 45642.88
+  Month 9 total: 46495.96
+  Month 10 total: 49708.26
+  Month 11 total: 41770.70
+  Month 12 total: 43435.23
+  Aggregate sales: 512983.71
+Total simulation time: 11693.02 ms
+
+3.
+java ProducerConsumer 2 10 3
+Running with p=2 producers, c=10 consumers, buffer size b=3, maxItems=1000
+
+Consumer 5 local statistics:
+  Store 1 total: 24791.24
+  Store 2 total: 24937.54
+  Month 1 total: 3957.91
+  Month 2 total: 1047.15
+  Month 3 total: 4743.03
+  Month 4 total: 5007.09
+  Month 5 total: 4468.10
+  Month 6 total: 3909.25
+  Month 7 total: 4735.11
+  Month 8 total: 7398.80
+  Month 9 total: 2529.59
+  Month 10 total: 3693.56
+  Month 11 total: 4603.47
+  Month 12 total: 3635.72
+  Aggregate: 49728.78
+
+Consumer 4 local statistics:
+  Store 1 total: 23684.29
+  Store 2 total: 28157.61
+  Month 1 total: 4955.80
+  Month 2 total: 959.03
+  Month 3 total: 4035.79
+  Month 4 total: 5874.90
+  Month 5 total: 4453.36
+  Month 6 total: 4453.08
+  Month 7 total: 4033.70
+  Month 8 total: 5722.29
+  Month 9 total: 3057.85
+  Month 10 total: 5337.61
+  Month 11 total: 3407.55
+  Month 12 total: 5550.93
+  Aggregate: 51841.90
+
+Consumer 3 local statistics:
+  Store 1 total: 31572.35
+  Store 2 total: 17256.22
+  Month 1 total: 5604.12
+  Month 2 total: 4257.37
+  Month 3 total: 4271.74
+  Month 4 total: 2761.71
+  Month 5 total: 4228.85
+  Month 6 total: 4673.05
+  Month 7 total: 4872.97
+  Month 8 total: 2277.49
+  Month 9 total: 4673.65
+  Month 10 total: 3445.65
+  Month 11 total: 4552.64
+  Month 12 total: 3209.34
+  Aggregate: 48828.57
+
+Consumer 2 local statistics:
+  Store 1 total: 17889.46
+  Store 2 total: 33643.67
+  Month 1 total: 6588.83
+  Month 2 total: 3611.78
+  Month 3 total: 2133.27
+  Month 4 total: 3416.63
+  Month 5 total: 5304.67
+  Month 6 total: 3295.15
+  Month 7 total: 4148.75
+  Month 8 total: 5247.85
+  Month 9 total: 5255.91
+  Month 10 total: 3880.12
+  Month 11 total: 5614.99
+  Month 12 total: 3035.18
+  Aggregate: 51533.13
+
+Consumer 1 local statistics:
+  Store 1 total: 25572.47
+  Store 2 total: 20443.46
+  Month 1 total: 3149.98
+  Month 2 total: 3267.36
+  Month 3 total: 5015.24
+  Month 4 total: 4950.87
+  Month 5 total: 3540.65
+  Month 6 total: 7304.35
+  Month 7 total: 3875.06
+  Month 8 total: 4346.11
+  Month 9 total: 3352.75
+  Month 10 total: 3604.01
+  Month 11 total: 2944.44
+  Month 12 total: 665.12
+  Aggregate: 46015.93
+
+Consumer 10 local statistics:
+  Store 1 total: 24421.37
+  Store 2 total: 28409.92
+  Month 1 total: 4243.50
+  Month 2 total: 2931.51
+  Month 3 total: 3018.94
+  Month 4 total: 3466.36
+  Month 5 total: 5156.82
+  Month 6 total: 8573.18
+  Month 7 total: 2848.33
+  Month 8 total: 3541.47
+  Month 9 total: 8099.52
+  Month 10 total: 4571.11
+  Month 11 total: 2912.74
+  Month 12 total: 3467.80
+  Aggregate: 52831.29
+
+Consumer 9 local statistics:
+  Store 1 total: 23316.86
+  Store 2 total: 24432.54
+  Month 1 total: 3320.82
+  Month 2 total: 6974.14
+  Month 3 total: 4587.74
+  Month 4 total: 4630.30
+  Month 5 total: 2980.17
+  Month 6 total: 3001.61
+  Month 7 total: 6002.66
+  Month 8 total: 2894.60
+  Month 9 total: 1649.09
+  Month 10 total: 2649.65
+  Month 11 total: 4500.70
+  Month 12 total: 4557.92
+  Aggregate: 47749.40
+
+Consumer 8 local statistics:
+  Store 1 total: 29443.35
+  Store 2 total: 25915.32
+  Month 1 total: 6358.81
+  Month 2 total: 5254.66
+  Month 3 total: 5611.42
+  Month 4 total: 1835.82
+  Month 5 total: 4480.31
+  Month 6 total: 7828.39
+  Month 7 total: 1653.94
+  Month 8 total: 6112.93
+  Month 9 total: 5552.68
+  Month 10 total: 1850.27
+  Month 11 total: 6443.05
+  Month 12 total: 2376.39
+  Aggregate: 55358.67
+
+Consumer 6 local statistics:
+  Store 1 total: 24166.53
+  Store 2 total: 32069.20
+  Month 1 total: 6639.40
+  Month 2 total: 5457.02
+  Month 3 total: 2750.89
+  Month 4 total: 3862.93
+  Month 5 total: 3754.80
+  Month 6 total: 5149.44
+  Month 7 total: 3671.44
+  Month 8 total: 3046.25
+  Month 9 total: 4354.06
+  Month 10 total: 5285.70
+  Month 11 total: 5631.04
+  Month 12 total: 6632.76
+  Aggregate: 56235.74
+
+Consumer 7 local statistics:
+  Store 1 total: 26190.02
+  Store 2 total: 24573.85
+  Month 1 total: 4098.55
+  Month 2 total: 5373.61
+  Month 3 total: 2477.25
+  Month 4 total: 3063.60
+  Month 5 total: 4123.18
+  Month 6 total: 5303.15
+  Month 7 total: 1665.94
+  Month 8 total: 3799.64
+  Month 9 total: 5350.87
+  Month 10 total: 4769.46
+  Month 11 total: 4202.56
+  Month 12 total: 6536.07
+  Aggregate: 50763.87
+
+GLOBAL STATISTICS:
+  Store 1 total: 251047.94
+  Store 2 total: 259839.32
+  Month 1 total: 48917.72
+  Month 2 total: 39133.62
+  Month 3 total: 38645.32
+  Month 4 total: 38870.21
+  Month 5 total: 42490.91
+  Month 6 total: 53490.66
+  Month 7 total: 37507.91
+  Month 8 total: 44387.43
+  Month 9 total: 43875.97
+  Month 10 total: 39087.13
+  Month 11 total: 44813.17
+  Month 12 total: 39667.22
+  Aggregate sales: 510887.27
+Total simulation time: 11498.20 ms
+
+4.
+java ProducerConsumer 5 2 3
+Running with p=5 producers, c=2 consumers, buffer size b=3, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 43331.43
+  Store 2 total: 57901.34
+  Store 3 total: 58840.48
+  Store 4 total: 43124.02
+  Store 5 total: 43135.84
+  Month 1 total: 21315.57
+  Month 2 total: 27718.85
+  Month 3 total: 14388.66
+  Month 4 total: 19676.40
+  Month 5 total: 20942.18
+  Month 6 total: 17980.32
+  Month 7 total: 23546.08
+  Month 8 total: 20296.43
+  Month 9 total: 28615.34
+  Month 10 total: 16306.06
+  Month 11 total: 17827.27
+  Month 12 total: 17719.93
+  Aggregate: 246333.11
+
+Consumer 2 local statistics:
+  Store 1 total: 48086.27
+  Store 2 total: 39756.82
+  Store 3 total: 48418.31
+  Store 4 total: 52719.66
+  Store 5 total: 52580.69
+  Month 1 total: 20943.61
+  Month 2 total: 20993.46
+  Month 3 total: 17881.73
+  Month 4 total: 24374.80
+  Month 5 total: 17369.22
+  Month 6 total: 21441.32
+  Month 7 total: 21804.13
+  Month 8 total: 18988.19
+  Month 9 total: 24032.32
+  Month 10 total: 20637.80
+  Month 11 total: 18654.29
+  Month 12 total: 14440.88
+  Aggregate: 241561.75
+
+GLOBAL STATISTICS:
+  Store 1 total: 91417.70
+  Store 2 total: 97658.16
+  Store 3 total: 107258.79
+  Store 4 total: 95843.68
+  Store 5 total: 95716.53
+  Month 1 total: 42259.19
+  Month 2 total: 48712.31
+  Month 3 total: 32270.39
+  Month 4 total: 44051.20
+  Month 5 total: 38311.41
+  Month 6 total: 39421.64
+  Month 7 total: 45350.21
+  Month 8 total: 39284.62
+  Month 9 total: 52647.66
+  Month 10 total: 36943.86
+  Month 11 total: 36481.56
+  Month 12 total: 32160.82
+  Aggregate sales: 487894.86
+Total simulation time: 4693.90 ms
+
+5.
+java ProducerConsumer 5 5 3
+Running with p=5 producers, c=5 consumers, buffer size b=3, maxItems=1000
+
+Consumer 4 local statistics:
+  Store 1 total: 18576.69
+  Store 2 total: 20122.28
+  Store 3 total: 21702.03
+  Store 4 total: 17950.43
+  Store 5 total: 20578.84
+  Month 1 total: 8800.78
+  Month 2 total: 2889.04
+  Month 3 total: 10240.75
+  Month 4 total: 10362.86
+  Month 5 total: 11232.23
+  Month 6 total: 11783.38
+  Month 7 total: 8567.27
+  Month 8 total: 4672.09
+  Month 9 total: 4981.01
+  Month 10 total: 8747.23
+  Month 11 total: 11196.35
+  Month 12 total: 5457.27
+  Aggregate: 98930.26
+
+Consumer 3 local statistics:
+  Store 1 total: 22508.95
+  Store 2 total: 16627.39
+  Store 3 total: 20314.77
+  Store 4 total: 18095.48
+  Store 5 total: 20923.07
+  Month 1 total: 8727.48
+  Month 2 total: 9487.64
+  Month 3 total: 10345.16
+  Month 4 total: 8222.47
+  Month 5 total: 8507.92
+  Month 6 total: 6214.96
+  Month 7 total: 8519.59
+  Month 8 total: 4994.16
+  Month 9 total: 7463.02
+  Month 10 total: 8452.90
+  Month 11 total: 6179.59
+  Month 12 total: 11354.78
+  Aggregate: 98469.67
+
+Consumer 1 local statistics:
+  Store 1 total: 21337.44
+  Store 2 total: 24575.33
+  Store 3 total: 22038.21
+  Store 4 total: 17055.61
+  Store 5 total: 23075.29
+  Month 1 total: 8053.33
+  Month 2 total: 4810.64
+  Month 3 total: 7697.18
+  Month 4 total: 7099.62
+  Month 5 total: 7778.61
+  Month 6 total: 11546.72
+  Month 7 total: 9967.17
+  Month 8 total: 13246.76
+  Month 9 total: 6346.31
+  Month 10 total: 8146.97
+  Month 11 total: 9915.21
+  Month 12 total: 13473.37
+  Aggregate: 108081.89
+
+Consumer 2 local statistics:
+  Store 1 total: 20826.03
+  Store 2 total: 20646.72
+  Store 3 total: 16130.74
+  Store 4 total: 19104.99
+  Store 5 total: 20120.79
+  Month 1 total: 9183.42
+  Month 2 total: 7885.04
+  Month 3 total: 5112.52
+  Month 4 total: 5268.92
+  Month 5 total: 4619.82
+  Month 6 total: 6072.04
+  Month 7 total: 12277.88
+  Month 8 total: 7535.08
+  Month 9 total: 8128.18
+  Month 10 total: 9076.77
+  Month 11 total: 11618.42
+  Month 12 total: 10051.16
+  Aggregate: 96829.27
+
+Consumer 5 local statistics:
+  Store 1 total: 14535.96
+  Store 2 total: 16706.92
+  Store 3 total: 24336.12
+  Store 4 total: 23752.40
+  Store 5 total: 18775.52
+  Month 1 total: 7649.00
+  Month 2 total: 7127.17
+  Month 3 total: 8467.45
+  Month 4 total: 7876.88
+  Month 5 total: 7471.82
+  Month 6 total: 10137.61
+  Month 7 total: 8704.88
+  Month 8 total: 8014.94
+  Month 9 total: 11014.85
+  Month 10 total: 5660.55
+  Month 11 total: 9237.24
+  Month 12 total: 6744.53
+  Aggregate: 98106.92
+
+GLOBAL STATISTICS:
+  Store 1 total: 97785.07
+  Store 2 total: 98678.64
+  Store 3 total: 104521.87
+  Store 4 total: 95958.91
+  Store 5 total: 103473.51
+  Month 1 total: 42414.01
+  Month 2 total: 32199.53
+  Month 3 total: 41863.05
+  Month 4 total: 38830.75
+  Month 5 total: 39610.41
+  Month 6 total: 45754.72
+  Month 7 total: 48036.78
+  Month 8 total: 38463.04
+  Month 9 total: 37933.38
+  Month 10 total: 40084.42
+  Month 11 total: 48146.80
+  Month 12 total: 47081.11
+  Aggregate sales: 500418.01
+Total simulation time: 4604.35 ms
+
+6.
+java ProducerConsumer 5 10 3
+Running with p=5 producers, c=10 consumers, buffer size b=3, maxItems=1000
+
+Consumer 7 local statistics:
+  Store 1 total: 11805.05
+  Store 2 total: 10594.15
+  Store 3 total: 8536.64
+  Store 4 total: 11334.37
+  Store 5 total: 10785.43
+  Month 1 total: 6731.74
+  Month 2 total: 2239.52
+  Month 3 total: 5009.44
+  Month 4 total: 3793.66
+  Month 5 total: 1823.32
+  Month 6 total: 4892.08
+  Month 7 total: 4634.32
+  Month 8 total: 7018.75
+  Month 9 total: 3022.39
+  Month 10 total: 3150.97
+  Month 11 total: 8020.20
+  Month 12 total: 2719.26
+  Aggregate: 53055.64
+
+Consumer 6 local statistics:
+  Store 1 total: 9579.48
+  Store 2 total: 11096.52
+  Store 3 total: 6147.07
+  Store 4 total: 12514.28
+  Store 5 total: 11515.41
+  Month 1 total: 2837.54
+  Month 2 total: 3032.86
+  Month 3 total: 4806.85
+  Month 4 total: 4287.16
+  Month 5 total: 4192.32
+  Month 6 total: 6136.07
+  Month 7 total: 6257.03
+  Month 8 total: 1425.32
+  Month 9 total: 6153.53
+  Month 10 total: 3068.01
+  Month 11 total: 2967.31
+  Month 12 total: 5688.77
+  Aggregate: 50852.76
+
+Consumer 5 local statistics:
+  Store 1 total: 10019.74
+  Store 2 total: 11727.80
+  Store 3 total: 13091.49
+  Store 4 total: 9242.55
+  Store 5 total: 5119.35
+  Month 1 total: 7325.02
+  Month 2 total: 6243.80
+  Month 3 total: 2100.49
+  Month 4 total: 2328.66
+  Month 5 total: 6419.40
+  Month 6 total: 3540.99
+  Month 7 total: 4284.17
+  Month 8 total: 2282.53
+  Month 9 total: 5092.03
+  Month 10 total: 2566.77
+  Month 11 total: 1782.21
+  Month 12 total: 5234.85
+  Aggregate: 49200.92
+
+Consumer 4 local statistics:
+  Store 1 total: 12885.50
+  Store 2 total: 8450.18
+  Store 3 total: 6782.89
+  Store 4 total: 10946.26
+  Store 5 total: 12615.02
+  Month 1 total: 4785.29
+  Month 2 total: 5556.88
+  Month 3 total: 3660.76
+  Month 4 total: 5443.45
+  Month 5 total: 1159.86
+  Month 6 total: 3739.42
+  Month 7 total: 4780.58
+  Month 8 total: 4475.69
+  Month 9 total: 5046.35
+  Month 10 total: 3980.21
+  Month 11 total: 5790.30
+  Month 12 total: 3261.05
+  Aggregate: 51679.85
+
+Consumer 3 local statistics:
+  Store 1 total: 6907.71
+  Store 2 total: 10929.79
+  Store 3 total: 9671.59
+  Store 4 total: 8087.96
+  Store 5 total: 13824.65
+  Month 1 total: 2717.74
+  Month 2 total: 4962.17
+  Month 3 total: 5046.60
+  Month 4 total: 3957.51
+  Month 5 total: 3012.78
+  Month 6 total: 4620.61
+  Month 7 total: 4683.13
+  Month 8 total: 6055.05
+  Month 9 total: 4317.61
+  Month 10 total: 3877.83
+  Month 11 total: 3474.07
+  Month 12 total: 2696.61
+  Aggregate: 49421.70
+
+Consumer 2 local statistics:
+  Store 1 total: 15129.26
+  Store 2 total: 8256.24
+  Store 3 total: 9319.99
+  Store 4 total: 11488.72
+  Store 5 total: 10014.91
+  Month 1 total: 1830.21
+  Month 2 total: 6913.69
+  Month 3 total: 4141.99
+  Month 4 total: 6209.19
+  Month 5 total: 6136.52
+  Month 6 total: 5243.55
+  Month 7 total: 4275.18
+  Month 8 total: 5091.00
+  Month 9 total: 6737.97
+  Month 10 total: 2244.81
+  Month 11 total: 2501.62
+  Month 12 total: 2883.38
+  Aggregate: 54209.12
+
+Consumer 1 local statistics:
+  Store 1 total: 11858.71
+  Store 2 total: 10066.58
+  Store 3 total: 8740.18
+  Store 4 total: 14106.74
+  Store 5 total: 8774.08
+  Month 1 total: 3688.60
+  Month 2 total: 3863.11
+  Month 3 total: 4317.91
+  Month 4 total: 3501.04
+  Month 5 total: 6171.38
+  Month 6 total: 6190.57
+  Month 7 total: 4678.93
+  Month 8 total: 6662.40
+  Month 9 total: 3578.38
+  Month 10 total: 4089.44
+  Month 11 total: 5228.40
+  Month 12 total: 1576.16
+  Aggregate: 53546.30
+
+Consumer 10 local statistics:
+  Store 1 total: 6756.85
+  Store 2 total: 6670.23
+  Store 3 total: 13986.67
+  Store 4 total: 9389.72
+  Store 5 total: 10265.30
+  Month 1 total: 2111.38
+  Month 2 total: 7959.88
+  Month 3 total: 4969.40
+  Month 4 total: 1705.44
+  Month 5 total: 5849.24
+  Month 6 total: 1496.31
+  Month 7 total: 4099.65
+  Month 8 total: 3771.60
+  Month 9 total: 5877.89
+  Month 10 total: 2405.57
+  Month 11 total: 3271.11
+  Month 12 total: 3551.30
+  Aggregate: 47068.78
+
+Consumer 9 local statistics:
+  Store 1 total: 9929.24
+  Store 2 total: 13748.10
+  Store 3 total: 9931.61
+  Store 4 total: 10734.31
+  Store 5 total: 8634.59
+  Month 1 total: 2833.49
+  Month 2 total: 4124.79
+  Month 3 total: 3159.08
+  Month 4 total: 5437.38
+  Month 5 total: 5412.13
+  Month 6 total: 5161.61
+  Month 7 total: 2375.30
+  Month 8 total: 3846.67
+  Month 9 total: 7019.81
+  Month 10 total: 4859.23
+  Month 11 total: 5497.36
+  Month 12 total: 3251.02
+  Aggregate: 52977.85
+
+Consumer 8 local statistics:
+  Store 1 total: 7126.42
+  Store 2 total: 8961.67
+  Store 3 total: 14098.71
+  Store 4 total: 6830.62
+  Store 5 total: 8894.20
+  Month 1 total: 2735.33
+  Month 2 total: 6688.39
+  Month 3 total: 2221.26
+  Month 4 total: 2238.33
+  Month 5 total: 4698.15
+  Month 6 total: 6689.69
+  Month 7 total: 4209.63
+  Month 8 total: 4179.06
+  Month 9 total: 5363.97
+  Month 10 total: 1827.43
+  Month 11 total: 2848.68
+  Month 12 total: 2211.72
+  Aggregate: 45911.63
+
+GLOBAL STATISTICS:
+  Store 1 total: 101997.98
+  Store 2 total: 100501.25
+  Store 3 total: 100306.85
+  Store 4 total: 104675.53
+  Store 5 total: 100442.95
+  Month 1 total: 37596.36
+  Month 2 total: 51585.09
+  Month 3 total: 39433.78
+  Month 4 total: 38901.82
+  Month 5 total: 44875.09
+  Month 6 total: 47710.88
+  Month 7 total: 44277.90
+  Month 8 total: 44808.06
+  Month 9 total: 52209.93
+  Month 10 total: 32070.27
+  Month 11 total: 41381.25
+  Month 12 total: 33074.12
+  Aggregate sales: 507924.56
+Total simulation time: 4702.03 ms
+
+7.
+java ProducerConsumer 10 2 3
+Running with p=10 producers, c=2 consumers, buffer size b=3, maxItems=1000
+
+Consumer 2 local statistics:
+  Store 1 total: 25740.34
+  Store 2 total: 21786.95
+  Store 3 total: 25360.45
+  Store 4 total: 26741.21
+  Store 5 total: 26504.81
+  Store 6 total: 22542.79
+  Store 7 total: 27178.64
+  Store 8 total: 23976.70
+  Store 9 total: 19362.68
+  Store 10 total: 27503.68
+  Month 1 total: 16638.88
+  Month 2 total: 20122.22
+  Month 3 total: 22295.78
+  Month 4 total: 21416.05
+  Month 5 total: 18633.74
+  Month 6 total: 20752.22
+  Month 7 total: 25319.67
+  Month 8 total: 19380.24
+  Month 9 total: 14496.18
+  Month 10 total: 25274.12
+  Month 11 total: 23717.33
+  Month 12 total: 18651.82
+  Aggregate: 246698.25
+
+Consumer 1 local statistics:
+  Store 1 total: 22311.72
+  Store 2 total: 26454.24
+  Store 3 total: 25346.75
+  Store 4 total: 19826.38
+  Store 5 total: 30022.29
+  Store 6 total: 27772.99
+  Store 7 total: 24852.18
+  Store 8 total: 29118.77
+  Store 9 total: 26057.37
+  Store 10 total: 28308.51
+  Month 1 total: 19528.21
+  Month 2 total: 29470.33
+  Month 3 total: 20905.28
+  Month 4 total: 20169.91
+  Month 5 total: 23802.02
+  Month 6 total: 26441.94
+  Month 7 total: 15747.00
+  Month 8 total: 21819.14
+  Month 9 total: 19460.18
+  Month 10 total: 24762.96
+  Month 11 total: 16793.96
+  Month 12 total: 21170.27
+  Aggregate: 260071.22
+
+GLOBAL STATISTICS:
+  Store 1 total: 48052.07
+  Store 2 total: 48241.19
+  Store 3 total: 50707.20
+  Store 4 total: 46567.59
+  Store 5 total: 56527.11
+  Store 6 total: 50315.78
+  Store 7 total: 52030.82
+  Store 8 total: 53095.48
+  Store 9 total: 45420.06
+  Store 10 total: 55812.19
+  Month 1 total: 36167.09
+  Month 2 total: 49592.55
+  Month 3 total: 43201.06
+  Month 4 total: 41585.97
+  Month 5 total: 42435.76
+  Month 6 total: 47194.16
+  Month 7 total: 41066.68
+  Month 8 total: 41199.38
+  Month 9 total: 33956.37
+  Month 10 total: 50037.08
+  Month 11 total: 40511.29
+  Month 12 total: 39822.09
+  Aggregate sales: 506769.47
+Total simulation time: 2338.00 ms
+
+8.
+java ProducerConsumer 10 5 3
+Running with p=10 producers, c=5 consumers, buffer size b=3, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 9860.02
+  Store 2 total: 7664.34
+  Store 3 total: 9938.72
+  Store 4 total: 9626.05
+  Store 5 total: 12990.87
+  Store 6 total: 13471.77
+  Store 7 total: 9266.02
+  Store 8 total: 11371.91
+  Store 9 total: 9054.54
+  Store 10 total: 12382.11
+  Month 1 total: 2612.12
+  Month 2 total: 5711.16
+  Month 3 total: 8687.26
+  Month 4 total: 12913.03
+  Month 5 total: 7667.65
+  Month 6 total: 7827.40
+  Month 7 total: 9194.30
+  Month 8 total: 13971.11
+  Month 9 total: 10063.18
+  Month 10 total: 13383.97
+  Month 11 total: 5807.76
+  Month 12 total: 7787.41
+  Aggregate: 105626.35
+
+Consumer 5 local statistics:
+  Store 1 total: 15814.59
+  Store 2 total: 11999.22
+  Store 3 total: 12159.21
+  Store 4 total: 8733.68
+  Store 5 total: 8607.13
+  Store 6 total: 7830.82
+  Store 7 total: 10036.96
+  Store 8 total: 8595.67
+  Store 9 total: 11624.70
+  Store 10 total: 8974.18
+  Month 1 total: 7502.03
+  Month 2 total: 12472.32
+  Month 3 total: 12760.56
+  Month 4 total: 7221.18
+  Month 5 total: 7570.93
+  Month 6 total: 8107.12
+  Month 7 total: 12316.26
+  Month 8 total: 4873.18
+  Month 9 total: 9344.46
+  Month 10 total: 8245.72
+  Month 11 total: 6378.63
+  Month 12 total: 7583.79
+  Aggregate: 104376.18
+
+Consumer 4 local statistics:
+  Store 1 total: 11173.36
+  Store 2 total: 9870.08
+  Store 3 total: 11465.71
+  Store 4 total: 8568.78
+  Store 5 total: 9268.34
+  Store 6 total: 8362.22
+  Store 7 total: 6710.39
+  Store 8 total: 14711.43
+  Store 9 total: 8251.50
+  Store 10 total: 7077.86
+  Month 1 total: 6139.60
+  Month 2 total: 5297.98
+  Month 3 total: 11311.29
+  Month 4 total: 6321.93
+  Month 5 total: 12828.01
+  Month 6 total: 3636.61
+  Month 7 total: 9906.80
+  Month 8 total: 11091.67
+  Month 9 total: 7771.03
+  Month 10 total: 5209.96
+  Month 11 total: 9615.04
+  Month 12 total: 6329.74
+  Aggregate: 95459.67
+
+Consumer 3 local statistics:
+  Store 1 total: 10351.17
+  Store 2 total: 14641.23
+  Store 3 total: 10758.25
+  Store 4 total: 11537.85
+  Store 5 total: 5843.02
+  Store 6 total: 11728.61
+  Store 7 total: 6653.30
+  Store 8 total: 11063.00
+  Store 9 total: 9328.04
+  Store 10 total: 10301.67
+  Month 1 total: 8759.94
+  Month 2 total: 11644.04
+  Month 3 total: 7032.10
+  Month 4 total: 6358.98
+  Month 5 total: 8658.50
+  Month 6 total: 12621.03
+  Month 7 total: 6293.01
+  Month 8 total: 7935.62
+  Month 9 total: 6840.78
+  Month 10 total: 9031.63
+  Month 11 total: 7746.34
+  Month 12 total: 9284.17
+  Aggregate: 102206.14
+
+Consumer 2 local statistics:
+  Store 1 total: 13007.31
+  Store 2 total: 11030.23
+  Store 3 total: 6991.78
+  Store 4 total: 7845.19
+  Store 5 total: 9849.31
+  Store 6 total: 11561.80
+  Store 7 total: 11854.89
+  Store 8 total: 9715.08
+  Store 9 total: 9874.53
+  Store 10 total: 9467.15
+  Month 1 total: 5980.11
+  Month 2 total: 8769.77
+  Month 3 total: 7330.31
+  Month 4 total: 11963.67
+  Month 5 total: 7153.66
+  Month 6 total: 10289.74
+  Month 7 total: 13221.04
+  Month 8 total: 7974.51
+  Month 9 total: 6621.14
+  Month 10 total: 8207.47
+  Month 11 total: 6442.32
+  Month 12 total: 7243.54
+  Aggregate: 101197.28
+
+GLOBAL STATISTICS:
+  Store 1 total: 60206.44
+  Store 2 total: 55205.10
+  Store 3 total: 51313.67
+  Store 4 total: 46311.55
+  Store 5 total: 46558.67
+  Store 6 total: 52955.23
+  Store 7 total: 44521.55
+  Store 8 total: 55457.10
+  Store 9 total: 48133.32
+  Store 10 total: 48202.97
+  Month 1 total: 30993.80
+  Month 2 total: 43895.27
+  Month 3 total: 47121.52
+  Month 4 total: 44778.79
+  Month 5 total: 43878.75
+  Month 6 total: 42481.90
+  Month 7 total: 50931.42
+  Month 8 total: 45846.08
+  Month 9 total: 40640.59
+  Month 10 total: 44078.75
+  Month 11 total: 35990.09
+  Month 12 total: 38228.65
+  Aggregate sales: 508865.61
+Total simulation time: 2495.83 ms
+
+9.
+java ProducerConsumer 10 10 3
+Running with p=10 producers, c=10 consumers, buffer size b=3, maxItems=1000
+
+Consumer 3 local statistics:
+  Store 1 total: 3813.68
+  Store 2 total: 3747.52
+  Store 3 total: 4132.73
+  Store 4 total: 4826.39
+  Store 5 total: 3651.86
+  Store 6 total: 6333.09
+  Store 7 total: 2357.67
+  Store 8 total: 5648.23
+  Store 9 total: 7883.22
+  Store 10 total: 4040.45
+  Month 1 total: 4755.89
+  Month 2 total: 5141.38
+  Month 3 total: 4484.09
+  Month 4 total: 2589.84
+  Month 5 total: 6063.82
+  Month 6 total: 3318.95
+  Month 7 total: 1910.31
+  Month 8 total: 3110.39
+  Month 9 total: 3399.22
+  Month 10 total: 4052.44
+  Month 11 total: 5305.73
+  Month 12 total: 2302.81
+  Aggregate: 46434.85
+
+Consumer 2 local statistics:
+  Store 1 total: 6851.23
+  Store 2 total: 4877.39
+  Store 3 total: 4814.95
+  Store 4 total: 4467.99
+  Store 5 total: 5200.98
+  Store 6 total: 4595.13
+  Store 7 total: 8092.48
+  Store 8 total: 4449.30
+  Store 9 total: 4630.14
+  Store 10 total: 5426.19
+  Month 1 total: 4280.65
+  Month 2 total: 4453.97
+  Month 3 total: 5707.99
+  Month 4 total: 2661.57
+  Month 5 total: 2584.08
+  Month 6 total: 3105.67
+  Month 7 total: 6889.22
+  Month 8 total: 8962.55
+  Month 9 total: 3105.01
+  Month 10 total: 3341.18
+  Month 11 total: 6026.15
+  Month 12 total: 2287.77
+  Aggregate: 53405.80
+
+Consumer 1 local statistics:
+  Store 1 total: 6354.19
+  Store 2 total: 3337.39
+  Store 3 total: 4490.45
+  Store 4 total: 3547.33
+  Store 5 total: 4236.54
+  Store 6 total: 6099.41
+  Store 7 total: 6929.65
+  Store 8 total: 6631.46
+  Store 9 total: 7389.33
+  Store 10 total: 5051.90
+  Month 1 total: 3206.98
+  Month 2 total: 5824.51
+  Month 3 total: 4510.29
+  Month 4 total: 6245.18
+  Month 5 total: 3741.39
+  Month 6 total: 3698.87
+  Month 7 total: 2420.96
+  Month 8 total: 4728.06
+  Month 9 total: 5273.00
+  Month 10 total: 2838.09
+  Month 11 total: 4463.35
+  Month 12 total: 7116.99
+  Aggregate: 54067.65
+
+Consumer 10 local statistics:
+  Store 1 total: 1359.91
+  Store 2 total: 4718.95
+  Store 3 total: 6935.62
+  Store 4 total: 5360.50
+  Store 5 total: 6797.51
+  Store 6 total: 2271.75
+  Store 7 total: 6314.59
+  Store 8 total: 5691.03
+  Store 9 total: 3667.49
+  Store 10 total: 7226.13
+  Month 1 total: 1789.84
+  Month 2 total: 2378.43
+  Month 3 total: 7120.96
+  Month 4 total: 3490.05
+  Month 5 total: 4038.33
+  Month 6 total: 6117.55
+  Month 7 total: 5190.20
+  Month 8 total: 5287.11
+  Month 9 total: 3615.86
+  Month 10 total: 1477.35
+  Month 11 total: 7302.58
+  Month 12 total: 2535.22
+  Aggregate: 50343.48
+
+Consumer 9 local statistics:
+  Store 1 total: 5174.57
+  Store 2 total: 4330.03
+  Store 3 total: 5278.49
+  Store 4 total: 7277.34
+  Store 5 total: 7281.16
+  Store 6 total: 4352.18
+  Store 7 total: 3938.03
+  Store 8 total: 4397.75
+  Store 9 total: 4504.56
+  Store 10 total: 2327.34
+  Month 1 total: 3903.66
+  Month 2 total: 4375.99
+  Month 3 total: 7591.43
+  Month 4 total: 6139.68
+  Month 5 total: 2641.01
+  Month 6 total: 5095.69
+  Month 7 total: 3083.81
+  Month 8 total: 2489.75
+  Month 9 total: 5615.54
+  Month 10 total: 3719.99
+  Month 11 total: 561.46
+  Month 12 total: 3643.44
+  Aggregate: 48861.45
+
+Consumer 8 local statistics:
+  Store 1 total: 3510.05
+  Store 2 total: 8394.86
+  Store 3 total: 6339.17
+  Store 4 total: 3420.09
+  Store 5 total: 3640.60
+  Store 6 total: 7139.18
+  Store 7 total: 5582.80
+  Store 8 total: 4432.66
+  Store 9 total: 2506.44
+  Store 10 total: 2449.22
+  Month 1 total: 1774.20
+  Month 2 total: 4528.75
+  Month 3 total: 3136.04
+  Month 4 total: 5640.34
+  Month 5 total: 2606.73
+  Month 6 total: 3372.11
+  Month 7 total: 2531.70
+  Month 8 total: 4977.17
+  Month 9 total: 8206.90
+  Month 10 total: 2973.89
+  Month 11 total: 3387.15
+  Month 12 total: 4280.09
+  Aggregate: 47415.07
+
+Consumer 7 local statistics:
+  Store 1 total: 7136.99
+  Store 2 total: 4645.80
+  Store 3 total: 5964.65
+  Store 4 total: 5638.54
+  Store 5 total: 2977.61
+  Store 6 total: 3725.41
+  Store 7 total: 6052.62
+  Store 8 total: 2139.04
+  Store 9 total: 6433.10
+  Store 10 total: 6133.38
+  Month 1 total: 1572.90
+  Month 2 total: 5205.90
+  Month 3 total: 2582.80
+  Month 4 total: 6729.22
+  Month 5 total: 5089.62
+  Month 6 total: 1747.54
+  Month 7 total: 5107.18
+  Month 8 total: 4486.54
+  Month 9 total: 4293.40
+  Month 10 total: 4030.13
+  Month 11 total: 4395.64
+  Month 12 total: 5606.26
+  Aggregate: 50847.14
+
+Consumer 6 local statistics:
+  Store 1 total: 4156.76
+  Store 2 total: 5844.20
+  Store 3 total: 4988.68
+  Store 4 total: 7670.24
+  Store 5 total: 3995.91
+  Store 6 total: 3184.60
+  Store 7 total: 3692.28
+  Store 8 total: 4495.16
+  Store 9 total: 5561.64
+  Store 10 total: 7805.61
+  Month 1 total: 3507.56
+  Month 2 total: 4227.27
+  Month 3 total: 3120.79
+  Month 4 total: 6825.48
+  Month 5 total: 8618.19
+  Month 6 total: 3742.84
+  Month 7 total: 3819.07
+  Month 8 total: 4859.66
+  Month 9 total: 3846.92
+  Month 10 total: 2157.04
+  Month 11 total: 4116.85
+  Month 12 total: 2553.41
+  Aggregate: 51395.08
+
+Consumer 5 local statistics:
+  Store 1 total: 5217.02
+  Store 2 total: 4574.58
+  Store 3 total: 6256.22
+  Store 4 total: 4511.83
+  Store 5 total: 4296.44
+  Store 6 total: 3835.66
+  Store 7 total: 6630.17
+  Store 8 total: 5665.55
+  Store 9 total: 4871.86
+  Store 10 total: 4416.91
+  Month 1 total: 2776.31
+  Month 2 total: 4731.86
+  Month 3 total: 5910.57
+  Month 4 total: 4018.31
+  Month 5 total: 3722.29
+  Month 6 total: 5307.72
+  Month 7 total: 3638.30
+  Month 8 total: 2991.54
+  Month 9 total: 3658.65
+  Month 10 total: 4574.30
+  Month 11 total: 5120.22
+  Month 12 total: 3826.16
+  Aggregate: 50276.24
+
+Consumer 4 local statistics:
+  Store 1 total: 2002.88
+  Store 2 total: 3959.13
+  Store 3 total: 2610.55
+  Store 4 total: 4737.73
+  Store 5 total: 6484.03
+  Store 6 total: 3443.87
+  Store 7 total: 4084.13
+  Store 8 total: 6198.02
+  Store 9 total: 7502.45
+  Store 10 total: 3693.42
+  Month 1 total: 4797.83
+  Month 2 total: 5461.21
+  Month 3 total: 3132.19
+  Month 4 total: 3538.08
+  Month 5 total: 5653.55
+  Month 6 total: 3359.81
+  Month 7 total: 3676.65
+  Month 8 total: 2664.09
+  Month 9 total: 4496.18
+  Month 10 total: 3629.42
+  Month 11 total: 2031.53
+  Month 12 total: 2275.66
+  Aggregate: 44716.20
+
+GLOBAL STATISTICS:
+  Store 1 total: 45577.29
+  Store 2 total: 48429.86
+  Store 3 total: 51811.51
+  Store 4 total: 51457.98
+  Store 5 total: 48562.64
+  Store 6 total: 44980.27
+  Store 7 total: 53674.41
+  Store 8 total: 49748.20
+  Store 9 total: 54950.24
+  Store 10 total: 48570.56
+  Month 1 total: 32365.82
+  Month 2 total: 46329.26
+  Month 3 total: 47297.15
+  Month 4 total: 47877.74
+  Month 5 total: 44759.01
+  Month 6 total: 38866.76
+  Month 7 total: 38267.39
+  Month 8 total: 44556.87
+  Month 9 total: 45510.68
+  Month 10 total: 32793.82
+  Month 11 total: 42710.65
+  Month 12 total: 36427.80
+  Aggregate sales: 497762.96
+Total simulation time: 2513.88 ms
+
+10.
+java ProducerConsumer 2 2 10
+Running with p=2 producers, c=2 consumers, buffer size b=10, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 115180.59
+  Store 2 total: 129990.94
+  Month 1 total: 20161.76
+  Month 2 total: 21389.91
+  Month 3 total: 28397.48
+  Month 4 total: 17224.36
+  Month 5 total: 19043.56
+  Month 6 total: 23402.82
+  Month 7 total: 18364.17
+  Month 8 total: 21270.31
+  Month 9 total: 19328.79
+  Month 10 total: 20941.01
+  Month 11 total: 21143.43
+  Month 12 total: 14503.95
+  Aggregate: 245171.53
+
+Consumer 2 local statistics:
+  Store 1 total: 136066.41
+  Store 2 total: 119159.44
+  Month 1 total: 19123.29
+  Month 2 total: 20476.52
+  Month 3 total: 17028.20
+  Month 4 total: 25827.85
+  Month 5 total: 18483.49
+  Month 6 total: 16862.61
+  Month 7 total: 19068.27
+  Month 8 total: 26934.14
+  Month 9 total: 17201.56
+  Month 10 total: 24734.74
+  Month 11 total: 26513.24
+  Month 12 total: 22971.93
+  Aggregate: 255225.84
+
+GLOBAL STATISTICS:
+  Store 1 total: 251247.00
+  Store 2 total: 249150.38
+  Month 1 total: 39285.05
+  Month 2 total: 41866.43
+  Month 3 total: 45425.68
+  Month 4 total: 43052.21
+  Month 5 total: 37527.05
+  Month 6 total: 40265.43
+  Month 7 total: 37432.44
+  Month 8 total: 48204.45
+  Month 9 total: 36530.35
+  Month 10 total: 45675.75
+  Month 11 total: 47656.67
+  Month 12 total: 37475.87
+  Aggregate sales: 500397.38
+Total simulation time: 11401.47 ms
+
+11.
+java ProducerConsumer 2 5 10
+Running with p=2 producers, c=5 consumers, buffer size b=10, maxItems=1000
+
+Consumer 2 local statistics:
+  Store 1 total: 52440.96
+  Store 2 total: 51011.13
+  Month 1 total: 7713.38
+  Month 2 total: 6269.85
+  Month 3 total: 8045.97
+  Month 4 total: 10613.66
+  Month 5 total: 9987.89
+  Month 6 total: 6902.91
+  Month 7 total: 11545.47
+  Month 8 total: 9074.12
+  Month 9 total: 5203.77
+  Month 10 total: 7224.02
+  Month 11 total: 14363.26
+  Month 12 total: 6507.78
+  Aggregate: 103452.09
+
+Consumer 1 local statistics:
+  Store 1 total: 45982.04
+  Store 2 total: 57970.68
+  Month 1 total: 9739.60
+  Month 2 total: 7301.84
+  Month 3 total: 8389.28
+  Month 4 total: 11991.22
+  Month 5 total: 11617.09
+  Month 6 total: 11139.70
+  Month 7 total: 7933.47
+  Month 8 total: 7207.27
+  Month 9 total: 8343.98
+  Month 10 total: 6190.88
+  Month 11 total: 8687.73
+  Month 12 total: 5410.66
+  Aggregate: 103952.72
+
+Consumer 4 local statistics:
+  Store 1 total: 45082.70
+  Store 2 total: 46314.99
+  Month 1 total: 6605.66
+  Month 2 total: 4904.22
+  Month 3 total: 9781.55
+  Month 4 total: 10983.15
+  Month 5 total: 7413.08
+  Month 6 total: 8858.38
+  Month 7 total: 5356.72
+  Month 8 total: 9165.54
+  Month 9 total: 5195.02
+  Month 10 total: 9365.00
+  Month 11 total: 7401.38
+  Month 12 total: 6367.98
+  Aggregate: 91397.69
+
+Consumer 5 local statistics:
+  Store 1 total: 52604.70
+  Store 2 total: 38754.59
+  Month 1 total: 7580.54
+  Month 2 total: 5649.56
+  Month 3 total: 10587.94
+  Month 4 total: 12329.12
+  Month 5 total: 6623.61
+  Month 6 total: 5418.55
+  Month 7 total: 6578.15
+  Month 8 total: 7600.50
+  Month 9 total: 7879.23
+  Month 10 total: 6519.83
+  Month 11 total: 5781.63
+  Month 12 total: 8810.62
+  Aggregate: 91359.29
+
+Consumer 3 local statistics:
+  Store 1 total: 52388.61
+  Store 2 total: 47217.94
+  Month 1 total: 9051.87
+  Month 2 total: 7910.64
+  Month 3 total: 10559.06
+  Month 4 total: 6798.48
+  Month 5 total: 7653.01
+  Month 6 total: 5369.00
+  Month 7 total: 6194.77
+  Month 8 total: 8680.20
+  Month 9 total: 12828.90
+  Month 10 total: 7836.31
+  Month 11 total: 7312.43
+  Month 12 total: 9411.87
+  Aggregate: 99606.56
+
+GLOBAL STATISTICS:
+  Store 1 total: 248499.01
+  Store 2 total: 241269.32
+  Month 1 total: 40691.04
+  Month 2 total: 32036.11
+  Month 3 total: 47363.82
+  Month 4 total: 52715.63
+  Month 5 total: 43294.69
+  Month 6 total: 37688.54
+  Month 7 total: 37608.57
+  Month 8 total: 41727.64
+  Month 9 total: 39450.91
+  Month 10 total: 37136.05
+  Month 11 total: 43546.43
+  Month 12 total: 36508.91
+  Aggregate sales: 489768.34
+Total simulation time: 11388.75 ms
+
+12.
+java ProducerConsumer 2 10 10
+Running with p=2 producers, c=10 consumers, buffer size b=10, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 22072.25
+  Store 2 total: 22570.88
+  Month 1 total: 3276.70
+  Month 2 total: 4330.18
+  Month 3 total: 3491.50
+  Month 4 total: 3590.75
+  Month 5 total: 4383.90
+  Month 6 total: 5605.04
+  Month 7 total: 5068.81
+  Month 8 total: 1097.13
+  Month 9 total: 5024.18
+  Month 10 total: 1955.11
+  Month 11 total: 1457.32
+  Month 12 total: 5362.50
+  Aggregate: 44643.13
+
+Consumer 10 local statistics:
+  Store 1 total: 24314.54
+  Store 2 total: 23812.16
+  Month 1 total: 5735.54
+  Month 2 total: 2427.50
+  Month 3 total: 7887.60
+  Month 4 total: 4444.52
+  Month 5 total: 3026.26
+  Month 6 total: 3184.66
+  Month 7 total: 5156.81
+  Month 8 total: 3021.66
+  Month 9 total: 4109.64
+  Month 10 total: 2676.65
+  Month 11 total: 2243.36
+  Month 12 total: 4212.50
+  Aggregate: 48126.70
+
+Consumer 9 local statistics:
+  Store 1 total: 23700.47
+  Store 2 total: 30144.92
+  Month 1 total: 3510.58
+  Month 2 total: 3851.81
+  Month 3 total: 3613.35
+  Month 4 total: 3049.61
+  Month 5 total: 3158.42
+  Month 6 total: 8077.54
+  Month 7 total: 7769.64
+  Month 8 total: 9282.74
+  Month 9 total: 1777.55
+  Month 10 total: 3206.49
+  Month 11 total: 2940.56
+  Month 12 total: 3607.09
+  Aggregate: 53845.39
+
+Consumer 8 local statistics:
+  Store 1 total: 27220.90
+  Store 2 total: 27070.95
+  Month 1 total: 2950.85
+  Month 2 total: 1378.96
+  Month 3 total: 1993.72
+  Month 4 total: 4490.01
+  Month 5 total: 5432.38
+  Month 6 total: 5080.83
+  Month 7 total: 4393.62
+  Month 8 total: 7296.11
+  Month 9 total: 5037.76
+  Month 10 total: 5694.24
+  Month 11 total: 4888.59
+  Month 12 total: 5654.80
+  Aggregate: 54291.85
+
+Consumer 7 local statistics:
+  Store 1 total: 27518.06
+  Store 2 total: 28082.04
+  Month 1 total: 3484.55
+  Month 2 total: 2521.73
+  Month 3 total: 4786.68
+  Month 4 total: 3127.64
+  Month 5 total: 4604.69
+  Month 6 total: 4297.74
+  Month 7 total: 9716.83
+  Month 8 total: 4075.12
+  Month 9 total: 4506.53
+  Month 10 total: 4469.88
+  Month 11 total: 5598.00
+  Month 12 total: 4410.70
+  Aggregate: 55600.09
+
+Consumer 6 local statistics:
+  Store 1 total: 22218.15
+  Store 2 total: 26783.43
+  Month 1 total: 4883.20
+  Month 2 total: 3388.76
+  Month 3 total: 5885.18
+  Month 4 total: 5420.17
+  Month 5 total: 3747.19
+  Month 6 total: 1739.04
+  Month 7 total: 5036.28
+  Month 8 total: 4305.10
+  Month 9 total: 2427.19
+  Month 10 total: 2042.54
+  Month 11 total: 4851.19
+  Month 12 total: 5275.75
+  Aggregate: 49001.59
+
+Consumer 5 local statistics:
+  Store 1 total: 23970.52
+  Store 2 total: 23781.50
+  Month 1 total: 2591.17
+  Month 2 total: 3180.48
+  Month 3 total: 1982.67
+  Month 4 total: 5440.67
+  Month 5 total: 5520.24
+  Month 6 total: 3895.98
+  Month 7 total: 4762.57
+  Month 8 total: 2607.40
+  Month 9 total: 4356.28
+  Month 10 total: 6268.16
+  Month 11 total: 2744.10
+  Month 12 total: 4402.29
+  Aggregate: 47752.02
+
+Consumer 4 local statistics:
+  Store 1 total: 23572.10
+  Store 2 total: 28482.23
+  Month 1 total: 5500.60
+  Month 2 total: 3860.25
+  Month 3 total: 2783.87
+  Month 4 total: 4294.98
+  Month 5 total: 4155.89
+  Month 6 total: 3545.96
+  Month 7 total: 6325.10
+  Month 8 total: 4962.52
+  Month 9 total: 1588.92
+  Month 10 total: 3481.29
+  Month 11 total: 5943.31
+  Month 12 total: 5611.65
+  Aggregate: 52054.33
+
+Consumer 3 local statistics:
+  Store 1 total: 24231.58
+  Store 2 total: 23803.88
+  Month 1 total: 3762.28
+  Month 2 total: 2252.78
+  Month 3 total: 3110.51
+  Month 4 total: 4966.22
+  Month 5 total: 2935.42
+  Month 6 total: 2803.33
+  Month 7 total: 2544.70
+  Month 8 total: 5530.57
+  Month 9 total: 6598.84
+  Month 10 total: 2832.94
+  Month 11 total: 7343.15
+  Month 12 total: 3354.72
+  Aggregate: 48035.46
+
+Consumer 2 local statistics:
+  Store 1 total: 24996.99
+  Store 2 total: 26534.81
+  Month 1 total: 3581.37
+  Month 2 total: 6936.26
+  Month 3 total: 3796.61
+  Month 4 total: 4091.08
+  Month 5 total: 2435.90
+  Month 6 total: 4906.23
+  Month 7 total: 3387.24
+  Month 8 total: 3588.66
+  Month 9 total: 1206.59
+  Month 10 total: 10221.59
+  Month 11 total: 5952.65
+  Month 12 total: 1427.62
+  Aggregate: 51531.80
+
+GLOBAL STATISTICS:
+  Store 1 total: 243815.57
+  Store 2 total: 261066.79
+  Month 1 total: 39276.83
+  Month 2 total: 34128.72
+  Month 3 total: 39331.70
+  Month 4 total: 42915.65
+  Month 5 total: 39400.29
+  Month 6 total: 43136.33
+  Month 7 total: 54161.60
+  Month 8 total: 45767.02
+  Month 9 total: 36633.49
+  Month 10 total: 42848.88
+  Month 11 total: 43962.23
+  Month 12 total: 43319.61
+  Aggregate sales: 504882.36
+Total simulation time: 11702.83 ms
+
+13.
+java ProducerConsumer 5 2 10
+Running with p=5 producers, c=2 consumers, buffer size b=10, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 56615.90
+  Store 2 total: 50556.64
+  Store 3 total: 49098.18
+  Store 4 total: 45997.46
+  Store 5 total: 52786.20
+  Month 1 total: 25475.85
+  Month 2 total: 23246.10
+  Month 3 total: 19238.63
+  Month 4 total: 13453.24
+  Month 5 total: 21659.26
+  Month 6 total: 24544.61
+  Month 7 total: 26555.31
+  Month 8 total: 20580.89
+  Month 9 total: 23502.03
+  Month 10 total: 18763.72
+  Month 11 total: 17194.03
+  Month 12 total: 20840.72
+  Aggregate: 255054.38
+
+Consumer 2 local statistics:
+  Store 1 total: 49087.25
+  Store 2 total: 51284.74
+  Store 3 total: 54623.25
+  Store 4 total: 54679.92
+  Store 5 total: 51271.44
+  Month 1 total: 17639.90
+  Month 2 total: 18431.62
+  Month 3 total: 22493.08
+  Month 4 total: 19817.25
+  Month 5 total: 25036.57
+  Month 6 total: 23806.71
+  Month 7 total: 25676.41
+  Month 8 total: 24991.97
+  Month 9 total: 16783.24
+  Month 10 total: 27749.29
+  Month 11 total: 22002.40
+  Month 12 total: 16518.18
+  Aggregate: 260946.60
+
+GLOBAL STATISTICS:
+  Store 1 total: 105703.15
+  Store 2 total: 101841.38
+  Store 3 total: 103721.42
+  Store 4 total: 100677.39
+  Store 5 total: 104057.64
+  Month 1 total: 43115.75
+  Month 2 total: 41677.72
+  Month 3 total: 41731.72
+  Month 4 total: 33270.49
+  Month 5 total: 46695.82
+  Month 6 total: 48351.32
+  Month 7 total: 52231.72
+  Month 8 total: 45572.85
+  Month 9 total: 40285.27
+  Month 10 total: 46513.01
+  Month 11 total: 39196.43
+  Month 12 total: 37358.90
+  Aggregate sales: 516000.98
+Total simulation time: 4694.28 ms
+
+14.
+java ProducerConsumer 5 5 10
+Running with p=5 producers, c=5 consumers, buffer size b=10, maxItems=1000
+
+Consumer 4 local statistics:
+  Store 1 total: 16457.17
+  Store 2 total: 17838.64
+  Store 3 total: 19723.03
+  Store 4 total: 26686.31
+  Store 5 total: 17358.72
+  Month 1 total: 10343.16
+  Month 2 total: 5340.20
+  Month 3 total: 10357.02
+  Month 4 total: 6120.65
+  Month 5 total: 10211.80
+  Month 6 total: 6688.67
+  Month 7 total: 9731.87
+  Month 8 total: 6078.88
+  Month 9 total: 11257.92
+  Month 10 total: 9187.05
+  Month 11 total: 3354.01
+  Month 12 total: 9392.63
+  Aggregate: 98063.86
+
+Consumer 3 local statistics:
+  Store 1 total: 21351.66
+  Store 2 total: 16448.17
+  Store 3 total: 19327.95
+  Store 4 total: 24499.00
+  Store 5 total: 14434.44
+  Month 1 total: 10714.66
+  Month 2 total: 5753.22
+  Month 3 total: 10519.40
+  Month 4 total: 10148.12
+  Month 5 total: 8892.80
+  Month 6 total: 9298.33
+  Month 7 total: 5684.98
+  Month 8 total: 11882.91
+  Month 9 total: 5698.39
+  Month 10 total: 4295.76
+  Month 11 total: 7551.45
+  Month 12 total: 5621.20
+  Aggregate: 96061.21
+
+Consumer 2 local statistics:
+  Store 1 total: 23042.37
+  Store 2 total: 16798.71
+  Store 3 total: 16350.67
+  Store 4 total: 13008.97
+  Store 5 total: 30769.61
+  Month 1 total: 10070.31
+  Month 2 total: 10110.36
+  Month 3 total: 10406.76
+  Month 4 total: 10559.24
+  Month 5 total: 4206.04
+  Month 6 total: 9539.24
+  Month 7 total: 8562.66
+  Month 8 total: 9574.66
+  Month 9 total: 7846.08
+  Month 10 total: 5702.00
+  Month 11 total: 9818.54
+  Month 12 total: 3574.44
+  Aggregate: 99970.33
+
+Consumer 1 local statistics:
+  Store 1 total: 24432.78
+  Store 2 total: 23772.43
+  Store 3 total: 22157.08
+  Store 4 total: 20308.31
+  Store 5 total: 14367.08
+  Month 1 total: 7826.73
+  Month 2 total: 7037.85
+  Month 3 total: 8944.71
+  Month 4 total: 10732.80
+  Month 5 total: 12311.64
+  Month 6 total: 10865.73
+  Month 7 total: 6408.49
+  Month 8 total: 4877.48
+  Month 9 total: 10410.93
+  Month 10 total: 9469.94
+  Month 11 total: 7408.83
+  Month 12 total: 8742.54
+  Aggregate: 105037.68
+
+Consumer 5 local statistics:
+  Store 1 total: 15829.35
+  Store 2 total: 24439.13
+  Store 3 total: 19236.49
+  Store 4 total: 13932.88
+  Store 5 total: 25016.10
+  Month 1 total: 6360.01
+  Month 2 total: 8339.28
+  Month 3 total: 10790.66
+  Month 4 total: 6372.21
+  Month 5 total: 9999.88
+  Month 6 total: 10023.07
+  Month 7 total: 8943.73
+  Month 8 total: 5614.67
+  Month 9 total: 10230.69
+  Month 10 total: 5074.71
+  Month 11 total: 11661.41
+  Month 12 total: 5043.66
+  Aggregate: 98453.96
+
+GLOBAL STATISTICS:
+  Store 1 total: 101113.32
+  Store 2 total: 99297.08
+  Store 3 total: 96795.23
+  Store 4 total: 98435.47
+  Store 5 total: 101945.95
+  Month 1 total: 45314.88
+  Month 2 total: 36580.91
+  Month 3 total: 51018.54
+  Month 4 total: 43933.01
+  Month 5 total: 45622.16
+  Month 6 total: 46415.05
+  Month 7 total: 39331.72
+  Month 8 total: 38028.59
+  Month 9 total: 45444.01
+  Month 10 total: 33729.45
+  Month 11 total: 39794.24
+  Month 12 total: 32374.47
+  Aggregate sales: 497587.03
+Total simulation time: 4880.98 ms
+
+15.
+java ProducerConsumer 5 10 10
+Running with p=5 producers, c=10 consumers, buffer size b=10, maxItems=1000
+
+Consumer 9 local statistics:
+  Store 1 total: 7007.37
+  Store 2 total: 8935.97
+  Store 3 total: 11992.45
+  Store 4 total: 6376.85
+  Store 5 total: 14148.43
+  Month 1 total: 2228.73
+  Month 2 total: 3173.14
+  Month 3 total: 2531.11
+  Month 4 total: 3861.66
+  Month 5 total: 2029.00
+  Month 6 total: 5021.71
+  Month 7 total: 4061.19
+  Month 8 total: 5460.68
+  Month 9 total: 5847.34
+  Month 10 total: 4730.69
+  Month 11 total: 5267.68
+  Month 12 total: 4248.12
+  Aggregate: 48461.07
+
+Consumer 8 local statistics:
+  Store 1 total: 10463.00
+  Store 2 total: 14960.50
+  Store 3 total: 8232.70
+  Store 4 total: 11241.61
+  Store 5 total: 4803.85
+  Month 1 total: 7378.92
+  Month 2 total: 4529.09
+  Month 3 total: 1796.67
+  Month 4 total: 4776.66
+  Month 5 total: 6946.98
+  Month 6 total: 3714.99
+  Month 7 total: 1439.64
+  Month 8 total: 2570.11
+  Month 9 total: 3502.48
+  Month 10 total: 2300.76
+  Month 11 total: 3948.38
+  Month 12 total: 6796.96
+  Aggregate: 49701.65
+
+Consumer 6 local statistics:
+  Store 1 total: 10198.20
+  Store 2 total: 9811.96
+  Store 3 total: 9020.23
+  Store 4 total: 15226.16
+  Store 5 total: 8358.50
+  Month 1 total: 5728.19
+  Month 2 total: 4236.59
+  Month 3 total: 3016.25
+  Month 4 total: 4376.73
+  Month 5 total: 2188.68
+  Month 6 total: 5426.49
+  Month 7 total: 3728.16
+  Month 8 total: 5574.34
+  Month 9 total: 5009.93
+  Month 10 total: 7146.04
+  Month 11 total: 4314.38
+  Month 12 total: 1869.26
+  Aggregate: 52615.06
+
+Consumer 7 local statistics:
+  Store 1 total: 8116.67
+  Store 2 total: 8637.14
+  Store 3 total: 12594.90
+  Store 4 total: 9087.00
+  Store 5 total: 11499.79
+  Month 1 total: 4184.47
+  Month 2 total: 5628.50
+  Month 3 total: 6045.87
+  Month 4 total: 4943.39
+  Month 5 total: 4210.28
+  Month 6 total: 1517.75
+  Month 7 total: 5124.27
+  Month 8 total: 5036.20
+  Month 9 total: 3076.37
+  Month 10 total: 4866.84
+  Month 11 total: 3513.82
+  Month 12 total: 1787.74
+  Aggregate: 49935.50
+
+Consumer 3 local statistics:
+  Store 1 total: 10574.58
+  Store 2 total: 10082.01
+  Store 3 total: 6891.77
+  Store 4 total: 10195.42
+  Store 5 total: 12364.69
+  Month 1 total: 6953.04
+  Month 2 total: 2327.20
+  Month 3 total: 4345.91
+  Month 4 total: 4507.45
+  Month 5 total: 2335.98
+  Month 6 total: 3785.01
+  Month 7 total: 6231.45
+  Month 8 total: 3245.41
+  Month 9 total: 2755.93
+  Month 10 total: 5191.78
+  Month 11 total: 1754.64
+  Month 12 total: 6674.68
+  Aggregate: 50108.47
+
+Consumer 2 local statistics:
+  Store 1 total: 11759.00
+  Store 2 total: 6709.26
+  Store 3 total: 11838.57
+  Store 4 total: 9768.68
+  Store 5 total: 9919.29
+  Month 1 total: 4822.12
+  Month 2 total: 8358.37
+  Month 3 total: 4308.90
+  Month 4 total: 5790.23
+  Month 5 total: 5583.10
+  Month 6 total: 2815.27
+  Month 7 total: 2408.45
+  Month 8 total: 4987.92
+  Month 9 total: 4638.05
+  Month 10 total: 1699.89
+  Month 11 total: 1368.22
+  Month 12 total: 3214.29
+  Aggregate: 49994.81
+
+Consumer 1 local statistics:
+  Store 1 total: 7715.78
+  Store 2 total: 14115.15
+  Store 3 total: 10762.93
+  Store 4 total: 9507.38
+  Store 5 total: 13037.96
+  Month 1 total: 5776.02
+  Month 2 total: 4417.30
+  Month 3 total: 6556.35
+  Month 4 total: 2172.57
+  Month 5 total: 7523.17
+  Month 6 total: 1668.07
+  Month 7 total: 6444.04
+  Month 8 total: 2724.42
+  Month 9 total: 4431.89
+  Month 10 total: 3039.00
+  Month 11 total: 6333.85
+  Month 12 total: 4052.53
+  Aggregate: 55139.20
+
+Consumer 5 local statistics:
+  Store 1 total: 11474.88
+  Store 2 total: 12868.84
+  Store 3 total: 7240.11
+  Store 4 total: 10352.14
+  Store 5 total: 12108.15
+  Month 1 total: 7421.40
+  Month 2 total: 5221.05
+  Month 3 total: 6213.59
+  Month 4 total: 4901.74
+  Month 5 total: 1413.89
+  Month 6 total: 4671.17
+  Month 7 total: 4300.63
+  Month 8 total: 4172.43
+  Month 9 total: 3829.44
+  Month 10 total: 3804.72
+  Month 11 total: 5203.91
+  Month 12 total: 2890.12
+  Aggregate: 54044.12
+
+Consumer 4 local statistics:
+  Store 1 total: 11634.34
+  Store 2 total: 7348.53
+  Store 3 total: 12712.55
+  Store 4 total: 10443.84
+  Store 5 total: 6640.70
+  Month 1 total: 5102.75
+  Month 2 total: 4389.65
+  Month 3 total: 1833.84
+  Month 4 total: 4744.27
+  Month 5 total: 3548.28
+  Month 6 total: 2720.73
+  Month 7 total: 4807.98
+  Month 8 total: 3930.37
+  Month 9 total: 6101.27
+  Month 10 total: 4422.04
+  Month 11 total: 3130.77
+  Month 12 total: 4048.02
+  Aggregate: 48779.96
+
+Consumer 10 local statistics:
+  Store 1 total: 11286.46
+  Store 2 total: 9106.60
+  Store 3 total: 8294.06
+  Store 4 total: 10963.33
+  Store 5 total: 4926.88
+  Month 1 total: 3848.19
+  Month 2 total: 4287.06
+  Month 3 total: 5770.93
+  Month 4 total: 4333.09
+  Month 5 total: 2093.40
+  Month 6 total: 4737.44
+  Month 7 total: 4346.32
+  Month 8 total: 1256.25
+  Month 9 total: 2323.54
+  Month 10 total: 2905.84
+  Month 11 total: 4523.92
+  Month 12 total: 4151.36
+  Aggregate: 44577.32
+
+GLOBAL STATISTICS:
+  Store 1 total: 100230.27
+  Store 2 total: 102575.96
+  Store 3 total: 99580.28
+  Store 4 total: 103162.41
+  Store 5 total: 97808.23
+  Month 1 total: 53443.85
+  Month 2 total: 46567.94
+  Month 3 total: 42419.43
+  Month 4 total: 44407.79
+  Month 5 total: 37872.76
+  Month 6 total: 36078.64
+  Month 7 total: 42892.13
+  Month 8 total: 38958.13
+  Month 9 total: 41516.23
+  Month 10 total: 40107.62
+  Month 11 total: 39359.56
+  Month 12 total: 39733.08
+  Aggregate sales: 503357.16
+Total simulation time: 5087.36 ms
+
+16.
+java ProducerConsumer 10 2 10
+Running with p=10 producers, c=2 consumers, buffer size b=10, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 19480.75
+  Store 2 total: 28372.10
+  Store 3 total: 31469.19
+  Store 4 total: 27827.02
+  Store 5 total: 24905.67
+  Store 6 total: 25561.03
+  Store 7 total: 21409.94
+  Store 8 total: 22036.45
+  Store 9 total: 24799.39
+  Store 10 total: 23024.07
+  Month 1 total: 29731.13
+  Month 2 total: 18038.97
+  Month 3 total: 25829.81
+  Month 4 total: 24901.05
+  Month 5 total: 14847.35
+  Month 6 total: 22386.36
+  Month 7 total: 17925.84
+  Month 8 total: 19155.90
+  Month 9 total: 16675.65
+  Month 10 total: 16938.78
+  Month 11 total: 18725.81
+  Month 12 total: 23728.96
+  Aggregate: 248885.61
+
+Consumer 2 local statistics:
+  Store 1 total: 26705.09
+  Store 2 total: 23386.53
+  Store 3 total: 23619.26
+  Store 4 total: 25386.88
+  Store 5 total: 26359.75
+  Store 6 total: 27347.73
+  Store 7 total: 26842.78
+  Store 8 total: 24392.38
+  Store 9 total: 25963.31
+  Store 10 total: 28662.97
+  Month 1 total: 21409.10
+  Month 2 total: 24574.97
+  Month 3 total: 28287.58
+  Month 4 total: 17454.13
+  Month 5 total: 20547.99
+  Month 6 total: 25452.43
+  Month 7 total: 17095.57
+  Month 8 total: 24490.63
+  Month 9 total: 22511.90
+  Month 10 total: 15610.98
+  Month 11 total: 23101.61
+  Month 12 total: 18129.79
+  Aggregate: 258666.68
+
+GLOBAL STATISTICS:
+  Store 1 total: 46185.84
+  Store 2 total: 51758.63
+  Store 3 total: 55088.45
+  Store 4 total: 53213.90
+  Store 5 total: 51265.42
+  Store 6 total: 52908.76
+  Store 7 total: 48252.72
+  Store 8 total: 46428.82
+  Store 9 total: 50762.71
+  Store 10 total: 51687.04
+  Month 1 total: 51140.24
+  Month 2 total: 42613.94
+  Month 3 total: 54117.39
+  Month 4 total: 42355.18
+  Month 5 total: 35395.34
+  Month 6 total: 47838.79
+  Month 7 total: 35021.40
+  Month 8 total: 43646.54
+  Month 9 total: 39187.55
+  Month 10 total: 32549.76
+  Month 11 total: 41827.42
+  Month 12 total: 41858.75
+  Aggregate sales: 507552.29
+Total simulation time: 2323.54 ms
+
+17.
+java ProducerConsumer 10 5 10
+Running with p=10 producers, c=5 consumers, buffer size b=10, maxItems=1000
+
+Consumer 1 local statistics:
+  Store 1 total: 9209.16
+  Store 2 total: 8619.10
+  Store 3 total: 12963.29
+  Store 4 total: 13370.88
+  Store 5 total: 10153.09
+  Store 6 total: 7625.38
+  Store 7 total: 9241.23
+  Store 8 total: 12103.84
+  Store 9 total: 11246.77
+  Store 10 total: 11342.03
+  Month 1 total: 7684.46
+  Month 2 total: 8426.70
+  Month 3 total: 9055.32
+  Month 4 total: 6876.86
+  Month 5 total: 10838.86
+  Month 6 total: 3882.70
+  Month 7 total: 5573.52
+  Month 8 total: 10036.67
+  Month 9 total: 9974.74
+  Month 10 total: 11758.28
+  Month 11 total: 8216.95
+  Month 12 total: 13549.71
+  Aggregate: 105874.77
+
+Consumer 4 local statistics:
+  Store 1 total: 13868.16
+  Store 2 total: 11374.15
+  Store 3 total: 6942.92
+  Store 4 total: 12125.82
+  Store 5 total: 10126.25
+  Store 6 total: 8177.07
+  Store 7 total: 9244.28
+  Store 8 total: 6078.65
+  Store 9 total: 10473.69
+  Store 10 total: 9124.88
+  Month 1 total: 6235.76
+  Month 2 total: 12295.80
+  Month 3 total: 8121.55
+  Month 4 total: 10579.23
+  Month 5 total: 5181.38
+  Month 6 total: 4057.80
+  Month 7 total: 8147.02
+  Month 8 total: 11607.61
+  Month 9 total: 7320.16
+  Month 10 total: 9766.35
+  Month 11 total: 4441.13
+  Month 12 total: 9782.07
+  Aggregate: 97535.87
+
+Consumer 3 local statistics:
+  Store 1 total: 9948.50
+  Store 2 total: 8301.90
+  Store 3 total: 8037.63
+  Store 4 total: 10586.60
+  Store 5 total: 9046.35
+  Store 6 total: 10596.23
+  Store 7 total: 8549.63
+  Store 8 total: 9301.40
+  Store 9 total: 9155.96
+  Store 10 total: 14938.69
+  Month 1 total: 9919.98
+  Month 2 total: 7939.95
+  Month 3 total: 7671.79
+  Month 4 total: 7375.86
+  Month 5 total: 10545.46
+  Month 6 total: 9628.30
+  Month 7 total: 6858.97
+  Month 8 total: 6207.14
+  Month 9 total: 6021.42
+  Month 10 total: 8699.74
+  Month 11 total: 8519.04
+  Month 12 total: 9075.24
+  Aggregate: 98462.90
+
+Consumer 2 local statistics:
+  Store 1 total: 15605.72
+  Store 2 total: 7715.57
+  Store 3 total: 5642.17
+  Store 4 total: 7781.69
+  Store 5 total: 9029.64
+  Store 6 total: 10053.45
+  Store 7 total: 9741.99
+  Store 8 total: 11417.48
+  Store 9 total: 10807.32
+  Store 10 total: 6144.60
+  Month 1 total: 6000.94
+  Month 2 total: 9390.57
+  Month 3 total: 13886.27
+  Month 4 total: 4396.64
+  Month 5 total: 7830.70
+  Month 6 total: 6311.65
+  Month 7 total: 4881.82
+  Month 8 total: 7557.31
+  Month 9 total: 8382.28
+  Month 10 total: 5231.93
+  Month 11 total: 11864.66
+  Month 12 total: 8204.85
+  Aggregate: 93939.63
+
+Consumer 5 local statistics:
+  Store 1 total: 8982.15
+  Store 2 total: 9184.19
+  Store 3 total: 16312.82
+  Store 4 total: 9754.30
+  Store 5 total: 10139.71
+  Store 6 total: 14521.56
+  Store 7 total: 12394.80
+  Store 8 total: 7807.86
+  Store 9 total: 9727.18
+  Store 10 total: 9966.06
+  Month 1 total: 13646.18
+  Month 2 total: 8475.64
+  Month 3 total: 13823.39
+  Month 4 total: 12376.61
+  Month 5 total: 8140.74
+  Month 6 total: 7467.34
+  Month 7 total: 5808.45
+  Month 8 total: 12686.91
+  Month 9 total: 8887.29
+  Month 10 total: 3969.04
+  Month 11 total: 6215.62
+  Month 12 total: 7293.42
+  Aggregate: 108790.62
+
+GLOBAL STATISTICS:
+  Store 1 total: 57613.68
+  Store 2 total: 45194.91
+  Store 3 total: 49898.84
+  Store 4 total: 53619.29
+  Store 5 total: 48495.04
+  Store 6 total: 50973.70
+  Store 7 total: 49171.93
+  Store 8 total: 46709.22
+  Store 9 total: 51410.92
+  Store 10 total: 51516.26
+  Month 1 total: 43487.33
+  Month 2 total: 46528.66
+  Month 3 total: 52558.33
+  Month 4 total: 41605.21
+  Month 5 total: 42537.14
+  Month 6 total: 31347.79
+  Month 7 total: 31269.78
+  Month 8 total: 48095.64
+  Month 9 total: 40585.89
+  Month 10 total: 39425.34
+  Month 11 total: 39257.39
+  Month 12 total: 47905.29
+  Aggregate sales: 504603.78
+Total simulation time: 2490.62 ms
+
+18.
+java ProducerConsumer 10 10 10
+Running with p=10 producers, c=10 consumers, buffer size b=10, maxItems=1000
+
+Consumer 2 local statistics:
+  Store 1 total: 3686.33
+  Store 2 total: 2784.37
+  Store 3 total: 5488.69
+  Store 4 total: 4947.93
+  Store 5 total: 3599.53
+  Store 6 total: 3706.69
+  Store 7 total: 7320.69
+  Store 8 total: 4743.90
+  Store 9 total: 7587.53
+  Store 10 total: 5443.92
+  Month 1 total: 3810.20
+  Month 2 total: 2857.54
+  Month 3 total: 3937.65
+  Month 4 total: 4550.99
+  Month 5 total: 4328.81
+  Month 6 total: 3331.60
+  Month 7 total: 5857.36
+  Month 8 total: 2185.46
+  Month 9 total: 4978.81
+  Month 10 total: 4709.79
+  Month 11 total: 7189.21
+  Month 12 total: 1572.18
+  Aggregate: 49309.59
+
+Consumer 1 local statistics:
+  Store 1 total: 6158.15
+  Store 2 total: 2945.95
+  Store 3 total: 4351.04
+  Store 4 total: 3861.62
+  Store 5 total: 9464.34
+  Store 6 total: 7977.01
+  Store 7 total: 3598.04
+  Store 8 total: 4236.74
+  Store 9 total: 6155.22
+  Store 10 total: 4234.23
+  Month 1 total: 5097.40
+  Month 2 total: 164.14
+  Month 3 total: 6551.55
+  Month 4 total: 2189.88
+  Month 5 total: 2833.03
+  Month 6 total: 3695.10
+  Month 7 total: 4571.99
+  Month 8 total: 4999.73
+  Month 9 total: 5497.74
+  Month 10 total: 4710.49
+  Month 11 total: 7255.09
+  Month 12 total: 5416.21
+  Aggregate: 52982.35
+
+Consumer 10 local statistics:
+  Store 1 total: 2631.56
+  Store 2 total: 4592.13
+  Store 3 total: 8467.10
+  Store 4 total: 3463.21
+  Store 5 total: 5501.96
+  Store 6 total: 2436.79
+  Store 7 total: 8147.84
+  Store 8 total: 5647.34
+  Store 9 total: 5190.56
+  Store 10 total: 5738.97
+  Month 1 total: 6049.46
+  Month 2 total: 5412.44
+  Month 3 total: 5290.02
+  Month 4 total: 5210.52
+  Month 5 total: 4907.01
+  Month 6 total: 3539.53
+  Month 7 total: 6566.45
+  Month 8 total: 7889.23
+  Month 9 total: 858.18
+  Month 10 total: 1766.25
+  Month 11 total: 2564.98
+  Month 12 total: 1763.39
+  Aggregate: 51817.47
+
+Consumer 9 local statistics:
+  Store 1 total: 5244.53
+  Store 2 total: 11195.36
+  Store 3 total: 3002.95
+  Store 4 total: 5949.92
+  Store 5 total: 1392.49
+  Store 6 total: 3082.70
+  Store 7 total: 2886.77
+  Store 8 total: 2390.34
+  Store 9 total: 4643.92
+  Store 10 total: 2477.54
+  Month 1 total: 4913.73
+  Month 2 total: 2938.02
+  Month 3 total: 2056.95
+  Month 4 total: 2766.29
+  Month 5 total: 2169.19
+  Month 6 total: 2385.93
+  Month 7 total: 3308.34
+  Month 8 total: 2547.89
+  Month 9 total: 5727.96
+  Month 10 total: 4458.63
+  Month 11 total: 6569.92
+  Month 12 total: 2423.67
+  Aggregate: 42266.51
+
+Consumer 8 local statistics:
+  Store 1 total: 6590.76
+  Store 2 total: 5836.84
+  Store 3 total: 2742.57
+  Store 4 total: 2334.54
+  Store 5 total: 5408.18
+  Store 6 total: 2472.88
+  Store 7 total: 10298.30
+  Store 8 total: 5208.76
+  Store 9 total: 2399.33
+  Store 10 total: 2559.82
+  Month 1 total: 1889.89
+  Month 2 total: 1735.89
+  Month 3 total: 7548.63
+  Month 4 total: 3454.74
+  Month 5 total: 4299.60
+  Month 6 total: 7031.98
+  Month 7 total: 1634.47
+  Month 8 total: 4734.98
+  Month 9 total: 2956.57
+  Month 10 total: 1047.94
+  Month 11 total: 2682.27
+  Month 12 total: 6835.00
+  Aggregate: 45851.97
+
+Consumer 6 local statistics:
+  Store 1 total: 5904.49
+  Store 2 total: 3005.48
+  Store 3 total: 5755.43
+  Store 4 total: 5213.88
+  Store 5 total: 4696.13
+  Store 6 total: 5904.18
+  Store 7 total: 3098.60
+  Store 8 total: 9031.15
+  Store 9 total: 5380.18
+  Store 10 total: 2947.54
+  Month 1 total: 4186.01
+  Month 2 total: 3988.55
+  Month 3 total: 4755.38
+  Month 4 total: 4371.41
+  Month 5 total: 3300.76
+  Month 6 total: 4906.28
+  Month 7 total: 4175.31
+  Month 8 total: 4459.67
+  Month 9 total: 2883.16
+  Month 10 total: 5299.58
+  Month 11 total: 3480.15
+  Month 12 total: 5130.81
+  Aggregate: 50937.07
+
+Consumer 5 local statistics:
+  Store 1 total: 3686.29
+  Store 2 total: 4617.55
+  Store 3 total: 8399.77
+  Store 4 total: 4386.59
+  Store 5 total: 5009.72
+  Store 6 total: 4871.43
+  Store 7 total: 3626.77
+  Store 8 total: 7131.24
+  Store 9 total: 2166.71
+  Store 10 total: 6963.13
+  Month 1 total: 2710.37
+  Month 2 total: 6273.55
+  Month 3 total: 1691.70
+  Month 4 total: 4152.61
+  Month 5 total: 8407.40
+  Month 6 total: 4503.91
+  Month 7 total: 3177.46
+  Month 8 total: 4539.26
+  Month 9 total: 3255.70
+  Month 10 total: 1915.53
+  Month 11 total: 5368.92
+  Month 12 total: 4862.79
+  Aggregate: 50859.20
+
+Consumer 7 local statistics:
+  Store 1 total: 2653.88
+  Store 2 total: 4961.77
+  Store 3 total: 3546.72
+  Store 4 total: 5971.32
+  Store 5 total: 3640.16
+  Store 6 total: 8854.02
+  Store 7 total: 4371.14
+  Store 8 total: 2555.13
+  Store 9 total: 5141.63
+  Store 10 total: 4655.65
+  Month 1 total: 6354.34
+  Month 2 total: 5496.35
+  Month 3 total: 2587.59
+  Month 4 total: 2976.78
+  Month 5 total: 4173.21
+  Month 6 total: 2199.24
+  Month 7 total: 4324.68
+  Month 8 total: 1037.80
+  Month 9 total: 3334.30
+  Month 10 total: 2285.44
+  Month 11 total: 5593.93
+  Month 12 total: 5987.76
+  Aggregate: 46351.42
+
+Consumer 4 local statistics:
+  Store 1 total: 7544.34
+  Store 2 total: 4761.15
+  Store 3 total: 5704.14
+  Store 4 total: 3709.47
+  Store 5 total: 5340.51
+  Store 6 total: 5764.46
+  Store 7 total: 2301.22
+  Store 8 total: 3734.26
+  Store 9 total: 3906.11
+  Store 10 total: 7817.10
+  Month 1 total: 3335.38
+  Month 2 total: 3518.37
+  Month 3 total: 1305.83
+  Month 4 total: 6221.09
+  Month 5 total: 4313.79
+  Month 6 total: 5979.40
+  Month 7 total: 6918.45
+  Month 8 total: 7310.31
+  Month 9 total: 3892.80
+  Month 10 total: 1865.74
+  Month 11 total: 3655.45
+  Month 12 total: 2266.16
+  Aggregate: 50582.76
+
+Consumer 3 local statistics:
+  Store 1 total: 5096.79
+  Store 2 total: 4617.92
+  Store 3 total: 5733.79
+  Store 4 total: 4979.11
+  Store 5 total: 3470.55
+  Store 6 total: 4409.17
+  Store 7 total: 3746.60
+  Store 8 total: 5060.12
+  Store 9 total: 6520.53
+  Store 10 total: 4707.38
+  Month 1 total: 4303.77
+  Month 2 total: 3478.77
+  Month 3 total: 1766.61
+  Month 4 total: 6202.05
+  Month 5 total: 3590.14
+  Month 6 total: 4569.88
+  Month 7 total: 3647.94
+  Month 8 total: 5903.79
+  Month 9 total: 2414.49
+  Month 10 total: 2771.37
+  Month 11 total: 4284.09
+  Month 12 total: 5409.07
+  Aggregate: 48341.96
+
+GLOBAL STATISTICS:
+  Store 1 total: 49197.13
+  Store 2 total: 49318.54
+  Store 3 total: 53192.19
+  Store 4 total: 44817.58
+  Store 5 total: 47523.57
+  Store 6 total: 49479.33
+  Store 7 total: 49395.97
+  Store 8 total: 49738.98
+  Store 9 total: 49091.72
+  Store 10 total: 47545.28
+  Month 1 total: 42650.53
+  Month 2 total: 35863.61
+  Month 3 total: 37491.90
+  Month 4 total: 42096.36
+  Month 5 total: 42322.94
+  Month 6 total: 42142.84
+  Month 7 total: 44182.45
+  Month 8 total: 45608.13
+  Month 9 total: 35799.70
+  Month 10 total: 30830.77
+  Month 11 total: 48644.01
+  Month 12 total: 41667.04
+  Aggregate sales: 489300.30
+Total simulation time: 2592.92 ms

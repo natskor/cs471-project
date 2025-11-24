@@ -85,12 +85,12 @@ The <2> <2> <3> values are the default values in the program, and can be changed
 The program was run a total of 18 times to ensure each combination of `p`,`c`, and `b` was used.
 
 Here is a complete results table for all 18 runs:
-| Run        | p  | c  | b  | Time (ms) | Findings                          |
-| ---------- | -- | -- | -- | --------- | --------------------------------- |
-| 1          | 2  | 2  | 3  | ~ ms      |                                   |
-| 2          | 2  | 5  | 3  | ~ ms      |                                   |
-| 3          | 2  | 10 | 3  | ~ ms      |                                   |
-| 4          | 5  | 2  | 3  | ~ ms      |                                   |
+| Run        | p  | c  | b  | Time (ms)   | Global Aggregate Sales            |
+| ---------- | -- | -- | -- | ----------- | --------------------------------- |
+| 1          | 2  | 2  | 3  | 11262.57 ms | Aggregate sales: 511365.87        |
+| 2          | 2  | 5  | 3  | 11693.02 ms | Aggregate sales: 512983.71        |
+| 3          | 2  | 10 | 3  | 11498.20 ms | Aggregate sales: 510887.27        |
+| 4          | 5  | 2  | 3  | 4693.90 ms  |                                   |
 | 5          | 5  | 5  | 3  | ~ ms      |            |
 | 6          | 5  | 10 | 3  | ~ ms      |  |
 | 7          | 10 | 2  | 3  | ~ ms      |           |

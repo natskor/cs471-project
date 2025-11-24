@@ -5,7 +5,7 @@
 
 ```javac *.java```
 
-This command will compile the necessary files for running the program.
+This command is run from the PRODCONS directory, and will compile the necessary files for running the program.
 
 ## Run Instructions
 
@@ -15,6 +15,8 @@ where:
 * ```p``` = number of producers
 *  ```c``` = number of consumers
 *  ```b``` = size of buffer.
+
+This command is also run from the PRODCONS directory, and will run the main program with the given arguments.
 
 ### Example
 
