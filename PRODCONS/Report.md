@@ -108,3 +108,6 @@ Here is a complete results table for all 18 runs:
 
 
 # Conclusion/Findings
+
+From this output, we can conclude that increasing the buffer size can slightly improve simulation time because it reduces the frequency of producers waiting when the buffer is full. However, the effect of buffer size is balanced by the number of consumers: adding more consumers generally has a larger impact on reducing simulation time, as they can process items in parallel more efficiently. While there is some interaction between the number of producers and buffer size, the primary factors affecting simulation time are the number of consumers and their ability to keep up with producers.
+   
