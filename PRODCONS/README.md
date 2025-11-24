@@ -26,7 +26,7 @@ This command runs the program with 2 producers, 2 consumers, and a buffer size o
 
 ## Included Files
 
-Source File (in src/):
+Source File:
 
 * ```ProducerConsumer.java``` - Contains the full implementation, including all static inner classes:
 
@@ -40,7 +40,7 @@ Source File (in src/):
 
   * ```Consumer``` - thread that consumes/removes records, and merges local and global stats
 
-Compiled Files (in bin/ after running javac):
+Compiled Files (.class files generated after running javac):
 
 * ```ProducerConsumer.class```
 
