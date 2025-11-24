@@ -1,4 +1,5 @@
 # Producer Consumer Problem
+**Author:** Caitlyn Heath
 
 ## Compile Instructions
 
