@@ -3,8 +3,6 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class Main {
     private static final int[] pageSizes = {512, 1024, 2048};   //Page sizes in bytes
@@ -27,7 +25,7 @@ public class Main {
         return addresses;
     }
 
-    /* Writes to Output file in output dir */
+    /* Writer Helper Function */
     public static void writeResult(PrintWriter writer, int pageSize, int frames, String alg, double pageFault) {
         writer.printf("%-10d %-10d %-10s %-14.2f%n", pageSize, frames, alg, pageFault);
     }
