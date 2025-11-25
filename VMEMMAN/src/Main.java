@@ -68,7 +68,7 @@ public class Main {
                     writeResult(writer, pageSize, frame, "optimal", pfr_optimal);
                 }
             }
-            System.out.println("Results in output/sample_output.txt");
+            System.out.println("Results in output/sample_output.txt in the VMEMMAN directory");
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

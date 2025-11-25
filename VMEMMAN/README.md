@@ -10,7 +10,7 @@ Source File:
     * ```readVirtualAddresses``` - holds and reads the provided input file of virtual addresses.
     * ```writeResult``` - writes the statistics of all algorithms with the provided parameters.
     * ```convertToPages``` - holds page numbers of converted virtual addresses (bytes).
-    * ```main``` - calls all algorithm files and prints statistics into an output file.
+    * ```main``` - gives all algorithms the data needed and prints statistics into an output file.
 * ```FIFO.java``` - contains one function:
     * ```pfr_fifo``` - implemented First In First Out algorithm. Returns Page Fault Rate.
 * ```LRU.java``` - contains one function:
