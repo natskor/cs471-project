@@ -85,5 +85,5 @@ The program executed will produce the following results:
 |2048         |12           |optimal                  |1.63   
 
 # Conclusion & Findings
-From the ouput we can conclude that in every scenario the ```optimal``` algorithm is most effective as it had the smallest Page fault percentage. While the ```MRU``` is the least effecting, having the largest Page fault percentage. The ```FIFO``` & ```LRU``` algorithms yield very similar results as they either were identical or were off from each other by less than 1%. The results also show a decrease of page fault percentage when the page size and number of allocated frames were larger.
+From the ouput we can conclude that in every scenario the ```optimal``` algorithm is most effective as it had the smallest Page fault percentage. While the ```MRU``` is the least effective, having the largest Page fault percentage. The ```FIFO``` & ```LRU``` algorithms yield very similar results as they either were identical or were off from each other by less than 1%. The results also show a decrease of page fault percentage when the page size and number of allocated frames were larger.
 In conclusion, this project demonstrates how the different page replacement algorithm will react given different page sizes, and number of allocated frames.
