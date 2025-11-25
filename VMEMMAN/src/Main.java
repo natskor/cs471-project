@@ -27,7 +27,7 @@ public class Main {
 
     /* Writer Helper Function */
     public static void writeResult(PrintWriter writer, int pageSize, int frames, String alg, double pageFault) {
-        writer.printf("%-10d %-10d %-10s %-14.2f%n", pageSize, frames, alg, pageFault);
+        writer.printf("%-12d %-12d %-24s %-24.2f%n", pageSize, frames, alg, pageFault);
     }
 
     /* Converts gvien virtual addresses (bytes) to page numbers with given page size (bytes) 
@@ -51,7 +51,7 @@ public class Main {
         PrintWriter writer = null;
         try {
             writer = new PrintWriter(new FileWriter("output/sample_output.txt"));
-            writer.printf("%-10s %-10s %-22s %-20s%n", "Page Size", "#of frames", "Page Replacement ALG", "Page fault percentage");
+            writer.printf("%-12s %-12s %-24s %-24s%n", "Page Size", "#of frames", "Page Replacement ALG", "Page fault percentage");
            
             for(int frame : numFrames) {
                 for(int pageSize : pageSizes) {
